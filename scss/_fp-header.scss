@@ -1,0 +1,167 @@
+// Header
+//--------------------------------
+
+header.banner {
+	background-color: $primary-color;
+}
+header.banner > .fixed {
+	// background-color: transparentize($primary-color, .1)
+}
+
+// Main Navigation
+//--------------------------------
+.contain-to-grid.fixed.active {
+	background-color: rgba($primary-color, 0.95);
+}
+.top-bar-section li a:not(.button) {
+	background: transparent;
+}
+.top-bar {
+	background: transparent;
+	background-color: transparent;
+	height: 71px;
+	margin-bottom: 0;
+	a.brand {
+		@include box-sizing(border-box);
+		@include clearfix();
+		display: block;
+		padding-bottom: $logo-padding;
+		padding-top: $logo-padding;
+		width: 250px;
+		img, h1, h2 {
+			float: left;
+		}
+		img {
+			// display: block;
+			left: -999em;
+			// margin-right: 14px;
+			position: absolute;
+		}
+		h1, h2 {
+			color: $body-bg;
+			line-height: 1;
+		}
+		h1 {
+			@include rem('font-size', round(50px * 0.48));
+			@include rem('margin', 4px 0 1px);
+		}
+		h2 {
+			@include rem('font-size', round(20px * 0.48));
+			font-weight: 200;
+		}
+	}
+	a.brand, .menu-main-navigation {
+		padding-left: $column-gutter / 2;
+    	padding-right: $column-gutter / 2;
+	}
+}
+.top-bar a.brand i.icon-logo {
+	@include rem('font-size', 46px);
+	@include rem('margin-right', 3px);
+	color: $body-bg;
+	float: left;
+	font-family: 'jasonmgarner-logo';
+	font-weight: normal;
+}
+.top-bar-section ul {
+	.menu-item a {
+		@include font-size(1.8);
+		color: $body-bg;
+	}
+}
+.nav-main {
+	li, a {
+		font-family: $header-font-family;
+		font-weight: $header-font-weight;
+	}
+}
+@media only screen and (min-width: 430px) {
+	$topbar-height: 88px;
+	.top-bar {
+		height: $topbar-height;
+		line-height: $topbar-height;
+		li.name {
+			height: $topbar-height;
+		}
+		a.brand {
+			width: 340px;
+			h1 {
+				@include rem('font-size', round(50px * 0.7));
+				@include rem('margin', 5px 0 1px);
+			}
+			h2 {
+				@include rem('font-size', round(20px * 0.7));
+			}
+			i.icon-logo {
+				@include rem('font-size', 64px);
+				@include rem('margin-right', 7px);
+			}
+		}
+
+	}
+}
+@media #{$topbar-media-query} {
+	$topbar-height: 122px;
+	.top-bar {
+		height: $topbar-height;
+		line-height: $topbar-height;
+		a.brand {
+			width: 510px;
+			h1 {
+				@include rem('font-size', 50px);
+				@include rem('margin', 9px 0 0);
+			}
+			h2 {
+				@include rem('font-size', 20px);
+			}
+			i.icon-logo {
+				@include rem('font-size', 88px);
+			}
+		}
+	}
+	.top-bar-section ul {
+		background: transparent;
+	}
+}
+@media only screen and (min-width: 940px) and (max-width: 990px) {
+	.top-bar {
+		a.brand {
+			@include rem('padding-top', 24px);
+			width: 460px;
+			h1 {
+				@include rem('font-size', round(50px * 0.8));
+				@include rem('margin', 19px 0 4px);
+			}
+			h2 {
+				@include rem('font-size', round(20px * 0.8));
+			}
+			i.icon-logo {
+				@include rem('font-size', round(126px * 0.8));
+			}
+		}
+	}
+}
+
+@media #{$phone-landscape} {
+	.top-bar .toggle-topbar.menu-icon {
+		margin-top: -27px;
+	}
+	.top-bar {
+		@include rem('height', 65px);
+		@include rem('line-height', 65px);
+		a.brand {
+			h1 {
+				@include rem('font-size', 22px);
+				@include rem('margin', 1px 0 1px);
+			}
+			h2 {
+				@include rem('font-size', 12px);
+			}
+			i.icon-logo {
+				@include rem('font-size', 38px);
+				@include rem('margin-right', 4px);
+			}
+		}
+	}
+
+}

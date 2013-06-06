@@ -1,0 +1,106 @@
+// Candyvars
+//-----------------------------------------------------
+
+// Grid
+$row-width: emCalc(1200px);
+
+// color
+$body-bg: #fffefc;
+
+$orange: #F36F04;
+$orange-lum: lighten($orange, 40%);
+$dark-grey: #333333;
+$med-grey: #686868;
+$light-grey: #B8B8B8;
+$blue: #2BA6CB;
+$peach: #ff4d56;
+
+$divider-right: #000;
+$divider-left: #2b2b2b;
+
+// Type
+$base-font-size: 62.5%;
+$body-font-color: #333;
+$body-font-family: "chaparral-pro", sans-serif;
+// $body-font-family: "ff-tisa-web-pro", arial;
+$body-font-weight: 400;
+$paragraph-line-height: 1.5;
+$font-bold: 700;
+$font-light: 200;
+$header-font-family: "lft-etica", sans-serif;
+$header-font-weight: 700; // (Bold)
+
+$header-line-height: 1.1;
+
+$primary-color: $peach;
+
+// Header
+$topbar-bg: $primary-color;
+$logo-height: 117px;
+$logo-padding: 12px;
+$topbar-height: 71px;
+$largeTopbar-height: 122px;
+$topbar-menu-link-color: $body-bg;
+$topbar-menu-icon-color: $body-bg;
+$topbar-menu-link-color-toggled: $body-bg;
+$topbar-menu-icon-color-toggled: $body-bg;
+
+// Portfolio
+$portfolioBorder: desaturate(lighten($primary-color, 20), 40);
+$portfolioBorderShadow: lighten($portfolioBorder, 12);
+
+$btn-color: darken(#bbb, 10);
+
+// Media Queries
+$jg_phone: emCalc(768px);
+$phone-landscape: $landscape + " and (max-width:"#{$jg_phone}")";
+
+// Bring Yo Own Mixins
+//-----------------------------------------------------
+@mixin font-size($sizeValue: 1.6){
+  font-size: ($sizeValue * 10) + px;
+  font-size: $sizeValue + rem;
+}
+@mixin height($sizeValue) {
+	height: ($sizeValue * 10) + px;
+	height: $sizeValue + rem;
+}
+
+// btns not buttons - .btn class
+@mixin btn-structure($bg-color: #333, $color: #fff, $shadow-color: $bg-color, $border-radius: 4px, $font-family: $header-font-family, $font-style: italic, $text-transform: normal, $font-weight: $header-font-weight){
+	@include rem('padding', 6px 10px 5px);
+	@include btn-level($bg-color, $shadow-color, $color);
+	border-radius: $border-radius;
+	color: $color;
+	display: inline-block;
+	font-family: $font-family;
+	font-style: $font-style;
+	font-weight: $font-weight;
+	position: relative;
+	text-transform: $text-transform;
+	text-shadow: 0 1px 0 darken($bg-color, 10);
+	&:hover {
+		@include btn-raised($bg-color, $shadow-color, $color);
+		background-color: darken($bg-color, 10);
+	}
+	&:active {
+		@include btn-inset($bg-color, $shadow-color, $color);
+	}
+}
+@mixin btn-level($btn-color: $primary-color, $shadow: darken($btn-color, 10), $color: #fff) {
+	@include background-image(linear-gradient(lighten($btn-color, 2), darken($btn-color, 2)));
+	box-shadow: inset 0 1px 1px rgba(#fff, 0.10), 0 0 0 1px $shadow, 0 0 1px 2px rgba(#fff, 0.10);
+	color: $color;
+}
+@mixin btn-raised($btn-color: $primary-color, $shadow: $btn-color, $color: #fff) {
+	// @include background-image(linear-gradient(lighten($btn-color, 2), darken($btn-color, 2)));
+	box-shadow: inset 0 1px 1px rgba(#fff, 0.10), 0 2px 1px rgba(darken($shadow, 25), 0.9), 0 0 1px 2px rgba(#fff, 0.10);
+	color: $color;
+
+}
+@mixin btn-inset($btn-color: $primary-color, $shadow: $btn-color, $color: #fff) {
+	@include background-image(linear-gradient(darken($btn-color, 8), darken($btn-color, 3)));
+	// background-color: rgba(darken($color, 10), 0.9);
+	box-shadow: inset 0 1px 1px darken($shadow, 25), 0 1px 1px rgba(#fff, 0.10), 0 0 1px 2px rgba(#fff, 0.10);
+	color: $color;
+}

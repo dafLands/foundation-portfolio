@@ -1,0 +1,1615 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pr",
+				"project-title"
+			],
+			[
+				"previo",
+				"previous_post_link"
+			],
+			[
+				"tran",
+				"transparent"
+			],
+			[
+				"is_sin",
+				"is_singular"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"portfolioBord",
+				"portfolioBorderShadow"
+			],
+			[
+				"por",
+				"portfolio"
+			],
+			[
+				"header",
+				"header-font-weight"
+			],
+			[
+				"icon",
+				"icon-before"
+			],
+			[
+				"port",
+				"portfolio-grid"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"pro",
+				"project-tag"
+			],
+			[
+				"he",
+				"header-font-weight"
+			],
+			[
+				"get_the_",
+				"get_the_tags"
+			],
+			[
+				"site",
+				"site-link"
+			],
+			[
+				"found",
+				"foundation_portfolio_widget_init"
+			],
+			[
+				"is_act",
+				"is_active_sidebar"
+			],
+			[
+				"porf",
+				"portfolioBorder"
+			],
+			[
+				"po",
+				"portfolioBorder"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"head",
+				"header-font-family"
+			],
+			[
+				"shadow",
+				"shadow-color"
+			],
+			[
+				"top",
+				"topbar-height"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"lar",
+				"large-2"
+			],
+			[
+				"la",
+				"large-4"
+			],
+			[
+				"co",
+				"column-gutter"
+			],
+			[
+				"scre",
+				"screenieWrap"
+			],
+			[
+				"tra",
+				"transition-timing-function"
+			],
+			[
+				"tr",
+				"transition-timing-function"
+			],
+			[
+				"transi",
+				"transition-property"
+			],
+			[
+				"portfo",
+				"portfolioBorder"
+			],
+			[
+				"colum",
+				"column-gutter"
+			],
+			[
+				"col",
+				"column-gap"
+			],
+			[
+				"top-bar",
+				"top-bar-section"
+			],
+			[
+				"ou",
+				"outline-offset"
+			],
+			[
+				"out",
+				"outline"
+			],
+			[
+				"s",
+				"site-details"
+			],
+			[
+				"ligh",
+				"lighten"
+			],
+			[
+				"inl",
+				"include"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"scr",
+				"screen-shot"
+			],
+			[
+				"img",
+				"img-wrap"
+			],
+			[
+				"fo",
+				"foreach	foreach …"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"body",
+				"body-bg"
+			],
+			[
+				"scree",
+				"screenShot"
+			],
+			[
+				"portf",
+				"portfolio_image"
+			],
+			[
+				"wp_non",
+				"wp_nonce_field"
+			],
+			[
+				"register_si",
+				"register_sidebar"
+			],
+			[
+				"vis",
+				"visibility"
+			],
+			[
+				"the_p",
+				"the_permalink"
+			],
+			[
+				"the_post",
+				"the_post_thumbnail"
+			],
+			[
+				"get_tem",
+				"get_template_part"
+			],
+			[
+				"wp_e",
+				"wp_enqueue_script"
+			],
+			[
+				"wp_enqueue",
+				"wp_enqueue_scripts"
+			],
+			[
+				"wp_regist",
+				"wp_register_script"
+			],
+			[
+				"wp_en",
+				"wp_enqueue_style"
+			],
+			[
+				"wp_reg",
+				"wp_register_style"
+			],
+			[
+				"get_h",
+				"get_header"
+			],
+			[
+				"cle",
+				"clearTimeout"
+			],
+			[
+				"f",
+				"f9f9f9"
+			],
+			[
+				"bad",
+				"background-image"
+			],
+			[
+				"building",
+				"buildingitem-price"
+			],
+			[
+				"tabl",
+				"table-cell"
+			],
+			[
+				"pre",
+				"preventDefault"
+			],
+			[
+				"categr",
+				"categories"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"hero",
+				"hero-overlay"
+			],
+			[
+				"cat",
+				"categoryOverlayOff"
+			],
+			[
+				"categ",
+				"category"
+			],
+			[
+				"border-b",
+				"border-bottom"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"border-bo",
+				"border-bottom"
+			],
+			[
+				"bacg",
+				"background"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"requi",
+				"requiredValidator"
+			],
+			[
+				"show",
+				"showErrorLabel"
+			],
+			[
+				"reut",
+				"resultsInnerContainer"
+			],
+			[
+				"link",
+				"linkContainer"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"requ",
+				"requiredValidator"
+			],
+			[
+				"cust",
+				"customValidationFix"
+			],
+			[
+				"bord",
+				"border-spacing"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"getE",
+				"getElementsByTagName"
+			],
+			[
+				"navb",
+				"navbarBGRight"
+			],
+			[
+				"desc",
+				"Description"
+			],
+			[
+				"func",
+				"function_exists"
+			],
+			[
+				"ca",
+				"carousel-inner"
+			],
+			[
+				"qu",
+				"query_posts"
+			],
+			[
+				"temp",
+				"template_path"
+			],
+			[
+				"dyna",
+				"dynamic_header"
+			],
+			[
+				"wp_ge",
+				"wp_get_referer"
+			],
+			[
+				"dy",
+				"dynamic_header_options_setup"
+			],
+			[
+				"media",
+				"media-upload"
+			],
+			[
+				"update_p",
+				"update_post_meta"
+			],
+			[
+				"add_m",
+				"add_meta_box"
+			],
+			[
+				"register_p",
+				"register_post_type"
+			],
+			[
+				"border-s",
+				"border-style"
+			],
+			[
+				"nth-ch",
+				":nth-child(|)"
+			],
+			[
+				"inv",
+				"investedAmt"
+			],
+			[
+				"trans",
+				"transAmt"
+			],
+			[
+				"av",
+				"availCat"
+			],
+			[
+				"sel",
+				"selectedCat"
+			],
+			[
+				"mous",
+				"mouseenter"
+			],
+			[
+				"distM",
+				"distAmtError"
+			],
+			[
+				"InputF",
+				"InputFederalAmtbyPercent"
+			],
+			[
+				"amtV",
+				"amtValid"
+			],
+			[
+				"In",
+				"InputFedPercent"
+			],
+			[
+				"Wid",
+				"WithdrawPart"
+			],
+			[
+				"amtVal",
+				"amtValidation"
+			],
+			[
+				"FederalB",
+				"FederalbyPercent"
+			],
+			[
+				"Fed",
+				"FederalbyDollar"
+			],
+			[
+				"Wi",
+				"WithdrawAll"
+			],
+			[
+				"nth",
+				":nth-child(|)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "scss/_styles.scss",
+			"settings":
+			{
+				"buffer_size": 4681,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/_fp-portfoliogrid.scss",
+			"settings":
+			{
+				"buffer_size": 14795,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/_fp-header.scss",
+			"settings":
+			{
+				"buffer_size": 3239,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/portfolio-functions.php",
+			"settings":
+			{
+				"buffer_size": 16633,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/content-portfolio-grid.php",
+			"settings":
+			{
+				"buffer_size": 2057,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "archive-portfolio.php",
+			"settings":
+			{
+				"buffer_size": 2434,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/custom.php",
+			"settings":
+			{
+				"buffer_size": 3261,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/breadcrumbs.php",
+			"settings":
+			{
+				"buffer_size": 4973,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "single-portfolio.php",
+			"settings":
+			{
+				"buffer_size": 879,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "functions.php",
+			"settings":
+			{
+				"buffer_size": 315,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/content-page.php",
+			"settings":
+			{
+				"buffer_size": 294,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/content-contact.php",
+			"settings":
+			{
+				"buffer_size": 454,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/content-portfolio-single.php",
+			"settings":
+			{
+				"buffer_size": 3742,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "stylesheets/foundation.css",
+			"settings":
+			{
+				"buffer_size": 166640,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/_vars.scss",
+			"settings":
+			{
+				"buffer_size": 3297,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Ruby/Ruby.sublime-build",
+	"command_palette":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"Sort via CSScomb"
+			],
+			[
+				"prefi",
+				"Preferences: Prefixr Key Bindings – Default"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: aspContent"
+			],
+			[
+				"Package Control: d",
+				"Package Control: Disable Package"
+			],
+			[
+				"",
+				"HTMLPrettify: Prettify"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"Pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 448.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Program Files (x86)/Git/doc/git/html/git-config.html",
+		"/C/Program Files (x86)/Git/doc/git/html/git.html",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/index.php",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/javascripts/jquery.custom.js",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/scss/foundation.scss",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/templates/footer.php",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/lib/styles-and-scripts.php",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/templates/header.php",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/templates/head.php",
+		"/C/Users/Jason/AppData/Local/Temp/fz3temp-1/.htaccess",
+		"/C/Users/Jason/AppData/Local/Temp/fz3temp-1/jquery.custom.js",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/templates/content-portfolio-grid.php",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/scss/foundation/components/_type.scss",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/sftp-config.json",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/templates/head.php",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/templates/header.php",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/lib/menus-and-sidebars.php",
+		"/D/SkyDrive/Web Development/Shelley Breiner/style.css",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/build_20130521201104/javascripts/jquery.portfolio.js",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/lib/timthumb.php",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/font-awesome/_icons.scss",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/font-awesome/_core.scss",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/templates/content-contact.php",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/home.php",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/index.php",
+		"/C/Users/Jason/AppData/Local/Temp/fz3temp-1/error_log",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/functions.php",
+		"/C/Users/Jason/AppData/Local/Temp/fz3temp-1/style.css",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/lib/mobile_detect.php",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/scss/_app.scss",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/templates/content-portfolio-grid.php",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/scss/foundation/components/_type.scss",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/scss/foundation/components/_visibility.scss",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/sftp-config.json",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/lib/functions-underscores.php",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/templates/footer.php",
+		"/D/Dropbox/Apps/Sublime Text 2.0.1 x64/Data/Packages/Prefixr/Default (Windows).sublime-keymap",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/scss/_fonts.scss",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/scss/_styles.scss",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/templates/content-single.php",
+		"/D/Dropbox/jasonmgarner.com/_s-master/_s-master/inc/template-tags.php",
+		"/D/Dropbox/jasonmgarner.com/_s-master/_s-master/inc/wpcom.php",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/lib/analyticstracking.php",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/scss/foundation.scss",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/font-awesome/_font-awesome.scss",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/font-awesome/_mixins.scss",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/font-awesome/_extras.scss",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/font-awesome/_path.scss",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/font-awesome/_variables.scss",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/font-awesome/font-awesome-ie7.scss",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/stylesheets/foundation.css",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/scss/_vars.scss",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/scss/foundation/components/_top-bar.scss",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/scss/foundation/components/_grid.scss",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/less/bootstrap.less",
+		"/C/Users/Jason/Downloads/jasonmgarner-logo81060/jasonmgarner-logo81060/style.css",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/scss/foundation/components/_block-grid.scss",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/javascripts/modernizr.min.js",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/config.rb",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/javascripts/jquery.portfolio.js",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/lib/styles-and-scripts.php",
+		"/D/Documents/College/CGS2172-eCommerce/cgs2172/wp-content/themes/wpflexishop/documentation/readme.txt",
+		"/D/Documents/College/CGS2172-eCommerce/cgs2172/wp-content/themes/wpflexishop/documentation/license.txt",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/scss/_rem.scss",
+		"/D/Dropbox/Apps/Sublime Text 2.0.1 x64/Data/Packages/SublimeOnSaveBuild/SublimeOnSaveBuild.sublime-settings",
+		"/D/Dropbox/Apps/Sublime Text 2.0.1 x64/Data/Packages/User/SublimeOnSaveBuild.sublime-settings",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/page-portfolio.php",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/archive-portfolio.php",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/lib/old-portfolio-function",
+		"/D/SVN/GraysPortableBuildings_BuildingsAndMore/trunk/dev/tft-js/core/jquery.buildings.js",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/scss/foundation/_foundation-global.scss",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/javascripts/jquery.custom.js",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/stylesheets/home.php",
+		"/C/Users/Jason/AppData/Local/Temp/Save For Web AI/logo-125pt.tmp/logo-125pt.html",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/single-portfolio.php",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/lib/sidebars.php",
+		"/C/Users/Jason/Downloads/_s-master/_s-master/index.php",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/templates/content-portfolio.php",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/javascripts/foundation/app.js",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/maintenance.html",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/templates/content-page.php",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/templates/content.php",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/index.html",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/lib/portfolio-functions.php",
+		"/D/Dropbox/Apps/Sublime Text 2.0.1 x64/Data/Packages/SFTP/SFTP.sublime-settings",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/lib/custom.php",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/lib/menus-and-sidebars",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/style.css",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/templates/entry-meta.php",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/javascripts/foundation/jquery.js",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/scss/app.scss",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/scss/styles.scss",
+		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/stylesheets/app.css",
+		"/D/Dropbox/jasonmgarner.com/wp-config.php",
+		"/D/Dropbox/jasonmgarner.com/.htaccess",
+		"/D/Dropbox/352media/talks.352/twentytwelve/index.php",
+		"/D/Documents/_+DesignAndDevelopment/jasonmgarner/js/jquery.quicksand.js",
+		"/D/Documents/_+DesignAndDevelopment/jasonmgarner/less/foundation.less",
+		"/D/Documents/_+DesignAndDevelopment/jasonmgarner/less/normalize.less",
+		"/D/Documents/_+DesignAndDevelopment/jasonmgarner/style-old.css",
+		"/D/Documents/_+DesignAndDevelopment/jasonmgarner/style.css",
+		"/D/Documents/_+DesignAndDevelopment/jasonmgarner/less/main.less",
+		"/D/Documents/_+DesignAndDevelopment/jasonmgarner/css/styles.less",
+		"/D/Documents/_+DesignAndDevelopment/jasonmgarner/css/foundation.less",
+		"/D/Documents/_+DesignAndDevelopment/jasonmgarner/index.php",
+		"/C/Users/Jason/Downloads/foundation-4.0.5.custom/css/foundation.css",
+		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/App_Code/Blog/WebUtils.cs",
+		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/App_Code/Blog/Blogs.cs",
+		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/blog/widgets/Search/widget.ascx",
+		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/App_Code/Blog/Tags.cs",
+		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/blog/admin/Widgets/Controls.aspx",
+		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/tft-js/core/blog/blog.js",
+		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/blog/search.aspx",
+		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/blog/themes/Standard/WidgetContainer.ascx",
+		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/blog/widgets/Search/widget.ascx.cs",
+		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/thank-you.aspx",
+		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/request-info.aspx",
+		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/tft-js/core/jquery.buildings.js",
+		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/screen-rooms.aspx",
+		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/trailers.aspx",
+		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/greenhouses.aspx",
+		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/gazebos.aspx",
+		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/less/forms.less",
+		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/login.aspx",
+		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/Controls/BaseControls/GenericLoginControl.ascx",
+		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/request-info.aspx.cs",
+		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/building-contact-form.aspx",
+		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/buildings.aspx"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"D:\\Dropbox\\jasonmgarner.com\\foundation-portfolio",
+			"D:\\Dropbox\\jasonmgarner.com\\foundation-portfolio\\scss\\foundation",
+			"C:\\SVNwork\\GraysPortableBuildings_BuildingsAndMore\\trunk\\dev",
+			"C:\\SVNwork\\GraysPortableBuildings_BuildingsAndMore\\trunk\\dev\\blog",
+			"C:\\SVNwork\\GraysPortableBuildings_BuildingsAndMore\\trunk\\dev\\less",
+			"C:\\SVN\\ArcherElectric_Main\\trunk\\dev",
+			"C:\\SVN\\NeutralSeven_Main\\trunk\\dev",
+			"C:\\SVN\\NeutralSeven_Main\\trunk\\dev\\blog",
+			"C:\\SVN\\NeutralSeven_Main\\trunk\\dev",
+			"C:\\SVN\\NeutralSeven_Main\\trunk\\dev\\css,C:\\SVN\\NeutralSeven_Main\\trunk\\dev",
+			"C:\\SVN\\NeutralSeven_Main\\trunk\\dev\\css",
+			"C:\\SVNwork\\NeutralSeven_Main\\trunk\\dev",
+			"C:\\Users\\Lands\\Dropbox\\WordPress\\xampp-portable\\htdocs\\CHREC\\wp-content\\themes\\chrec-theme",
+			"C:\\Users\\Lands\\Dropbox\\WordPress\\xampp-portable\\htdocs\\CHREC\\wp-content\\themes\\chrec-theme\\assets\\css\\less"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"842",
+			"845",
+			"max-width",
+			"h2.project-title",
+			".project-tags",
+			".project-roles",
+			".project-title",
+			"tag",
+			"item",
+			"32",
+			".project-roles",
+			"h1.project-title",
+			"hr",
+			"em",
+			" Details",
+			"View ",
+			"section",
+			"20",
+			"$primary-color",
+			"domain",
+			".project-roles",
+			"p.domain",
+			"uppercase",
+			"domain",
+			"58px",
+			"58",
+			".touch.opacity",
+			"173px",
+			"173",
+			".project-tags",
+			".domain-name",
+			".project-roles",
+			"topbar-height",
+			"\\",
+			"#DocumentRoot",
+			"content_nav",
+			"_s",
+			"#bbb",
+			"$detect",
+			"#21759b",
+			"line-height: 2.4",
+			"0.928571429",
+			"3.428571429",
+			"1.571428571",
+			";\n",
+			"3.57142857",
+			"5.142857143",
+			"2.571428571",
+			"1.714285714",
+			"68.571428571",
+			"0.571428571",
+			"0.714285714",
+			"0.428571429",
+			"0.857142857",
+			"font-size",
+			"bold",
+			"font-style",
+			"normal",
+			"font-weight",
+			"h1",
+			"body",
+			"font",
+			"');\n",
+			"domain-name",
+			"  ",
+			".project-roles",
+			"300ms",
+			"sidebar_jumbotron",
+			"$btn-color",
+			"grid",
+			"content-box",
+			".info",
+			");\n",
+			".info",
+			"_s",
+			"_s_setup",
+			"_s",
+			"$color",
+			"fonts",
+			"@",
+			"FontAwesomePath",
+			"@",
+			"@width",
+			".less",
+			";",
+			"@import",
+			".02",
+			".20",
+			".10)",
+			"@include rem('",
+			"0.7",
+			"max-width",
+			"round",
+			".project-info",
+			"info",
+			"$topbar-height",
+			"@font-face",
+			"fonts/",
+			"2.6666666%",
+			" . echo",
+			"-shot",
+			"#",
+			"$portfolioBorder",
+			"4",
+			"ul.portfolio-thumbs",
+			".project-info",
+			"float",
+			"ul.port",
+			"$primary-color",
+			"primary-color",
+			"$primary-color",
+			"50",
+			"300ms",
+			"$background-color",
+			"/javascripts/",
+			"lighten($portfolioBorder, 8)",
+			"lighten($portfolioBorder, 7)",
+			"10",
+			"7",
+			"$peach",
+			"390",
+			"$peach",
+			"clearfix()",
+			"5px",
+			"$border",
+			"0",
+			"$portfolio_meta_fields",
+			"jQuery"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "scss/_styles.scss",
+					"settings":
+					{
+						"buffer_size": 4681,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1567,
+								1567
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1184.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "scss/_fp-portfoliogrid.scss",
+					"settings":
+					{
+						"buffer_size": 14795,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4359,
+								4114
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1330.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "scss/_fp-header.scss",
+					"settings":
+					{
+						"buffer_size": 3239,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2834,
+								2834
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 126.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "lib/portfolio-functions.php",
+					"settings":
+					{
+						"buffer_size": 16633,
+						"regions":
+						{
+							"TagLint":
+							{
+								"flags": 52,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										9653,
+										9662
+									]
+								],
+								"scope": "variable.parameter"
+							}
+						},
+						"selection":
+						[
+							[
+								240,
+								240
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "templates/content-portfolio-grid.php",
+					"settings":
+					{
+						"buffer_size": 2057,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								846,
+								846
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "archive-portfolio.php",
+					"settings":
+					{
+						"buffer_size": 2434,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2257,
+								2257
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 342.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "lib/custom.php",
+					"settings":
+					{
+						"buffer_size": 3261,
+						"regions":
+						{
+							"TagLint":
+							{
+								"flags": 52,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										1835,
+										1838
+									]
+								],
+								"scope": "variable.parameter"
+							}
+						},
+						"selection":
+						[
+							[
+								3261,
+								3261
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1386.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "lib/breadcrumbs.php",
+					"settings":
+					{
+						"buffer_size": 4973,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2143,
+								2143
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 456.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "single-portfolio.php",
+					"settings":
+					{
+						"buffer_size": 879,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								483,
+								483
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "functions.php",
+					"settings":
+					{
+						"buffer_size": 315,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								314,
+								314
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "templates/content-page.php",
+					"settings":
+					{
+						"buffer_size": 294,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								142,
+								142
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "templates/content-contact.php",
+					"settings":
+					{
+						"buffer_size": 454,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 12,
+					"file": "templates/content-portfolio-single.php",
+					"settings":
+					{
+						"buffer_size": 3742,
+						"regions":
+						{
+							"TagLint":
+							{
+								"flags": 52,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										1278,
+										1375
+									]
+								],
+								"scope": "variable.parameter"
+							}
+						},
+						"selection":
+						[
+							[
+								674,
+								674
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 494.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "stylesheets/foundation.css",
+					"settings":
+					{
+						"buffer_size": 166640,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								150032,
+								150032
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 71091.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "scss/_vars.scss",
+					"settings":
+					{
+						"buffer_size": 3297,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								333,
+								333
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.585281644174,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 124.0
+	},
+	"output.sftp":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/Lands/Dropbox/Apps/My Projects - Sublime Text/Content-WF-home.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 225.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,102 @@
+function portfolio_meta_options( $object, $box ){
+    wp_nonce_field( basename( __FILE__ ), 'portfolio_nonce' );
+?>
+    <p>
+        <label for="liveLink"><?php _e( 'Add link to actual live site', 'foundation-portfolio' ) ?></label>
+        <input class="widefat" name="liveLink" id="liveLink" type="url" value="<?php echo esc_attr( get_post_meta( $object->ID, 'portfolio_item_live_link', true ) ) ?>" size="50" />
+    </p>
+<?php
+    }
+
+
+
+function save_portfolio_meta_alt( $post_id, $post ){
+
+    /* Verify the nonce before proceeding. */
+    if ( !isset( $_POST['portfolio_nonce'] ) || !wp_verify_nonce( $_POST['portfolio_nonce'], basename( __FILE__ ) ) )
+        return $post_id;
+
+    /* Get the post type object. */
+    $post_type = get_post_type_object( $post->post_type );
+
+    /* Check if the current user has permission to edit the post. */
+    if ( !current_user_can( $post_type->cap->edit_post, $post_id ) )
+        return $post_id;
+
+     Get the posted data and sanitize it for use as an HTML class.
+    $new_meta_value = ( isset( $_POST['liveLink'] ) ? esc_html( $_POST['liveLink'] ) : '' );
+
+    /* Get the meta key. */
+    $meta_key = 'portfolio_item_live_link';
+
+    /* Get the meta value of the custom field key. */
+    $meta_value = get_post_meta( $post_id, $meta_key, true );
+
+    /* If a new meta value was added and there was no previous value, add it. */
+    if ( $new_meta_value && '' == $meta_value )
+        add_post_meta( $post_id, $meta_key, $new_meta_value, true );
+
+    /* If the new meta value does not match the old value, update it. */
+    elseif ( $new_meta_value && $new_meta_value != $meta_value )
+        update_post_meta( $post_id, $meta_key, $new_meta_value );
+
+    /* If there is no new meta value but an old value exists, delete it. */
+    elseif ( '' == $new_meta_value && $meta_value )
+        delete_post_meta( $post_id, $meta_key, $meta_value );
+
+}
+
+// // add_filter('excerpt_length', 'my_excerpt_length');
+
+// function my_excerpt_length($length) {
+//  return 25;
+// }
+
+// add_filter('excerpt_more', 'new_excerpt_more');
+
+// function new_excerpt_more($text){
+//  return ' ';
+// }
+
+// Add Current Menu Item class for custom post types.
+// ---------------------------------------------------------
+// // http://stackoverflow.com/questions/3269878/wordpress-custom-post-type-hierarchy-and-menu-highlighting-current-page-parent
+// function my_page_css_class($css_class, $page) {
+//     if (get_post_type()=='portfolio' || is_page(65)) {
+//         if ($page->ID == get_option('page_for_posts')) {
+//             foreach ($css_class as $k=>$v) {
+//                 if ($v=='current_page_parent') unset($css_class[$k]);
+//             }
+//         }
+//         if ($page->ID==65) {
+//             $css_class[]='current_page_parent';
+//         }
+//     }
+//     return $css_class;
+// }
+// add_filter('page_css_class','my_page_css_class',10,2);
+
+// // http://wordpress.stackexchange.com/questions/56305/show-current-item-in-custom-menu-when-inside-a-custom-post-type
+// function additional_active_item_classes($classes = array(), $menu_item = false){
+//     global $wp_query;
+
+//     if(in_array('current-menu-item', $menu_item->classes)){
+//         $classes[] = 'current-menu-item';
+//     }
+
+//     if ( $menu_item->post_name == 'portfolio' && is_post_type_archive('portfolio') ) {
+//         $classes[] = 'current-menu-item';
+//     }
+
+//     if ( $menu_item->post_name == 'portfolio' && is_singular('portfolio') ) {
+//         $classes[] = 'current-menu-item';
+//     }
+
+//     if ( $menu_item->post_name == 'portfolio' && is_page('portfolio') ) {
+//         $classes[] = 'current-menu-item';
+//     }
+
+
+//     return $classes;
+// }
+// add_filter( 'nav_menu_css_class', 'additional_active_item_classes', 10, 2 );

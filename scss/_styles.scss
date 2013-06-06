@@ -1,0 +1,281 @@
+@mixin icon-before($font-size: 16px, $unicode: "\f121" ) {
+	span {
+		color: transparent;
+		font: 0/0 a;
+		text-shadow: none;
+	}
+	&:before {
+		@include rem('font-size', $font-size);
+		content: $unicode;
+		display: inline-block;
+		font-family: FontAwesome;
+		font-style: normal;
+		font-weight: normal;
+		text-decoration: inherit;
+		text-decoration: inherit;
+		text-indent: 0;
+		 -webkit-font-smoothing: antialiased;
+		speak: none;
+		*margin-right: .3em; // fixes ie7 issues
+	}
+}
+
+//------------------------------------------------
+// Custom Styles and Overrides
+//------------------------------------------------
+
+html
+body {
+	background-color: #333;
+}
+// Type
+//--------------------------------
+
+body, p {
+	// @include rem('font-size', 20px);
+	@include rem('font-size', 18px);
+}
+
+$multiplier: .50;
+// Headings
+h1 {
+	font-size: (57rem * .10) * $multiplier;
+}
+h2 {
+	font-size: (49rem * .10) * $multiplier;
+}
+h3 {
+	font-size: (37rem * .10) * $multiplier;
+}
+h4 {
+	font-size: (27rem * .10) * $multiplier;
+}
+h5 {
+	font-size: (25rem * .10) * $multiplier;
+}
+h6 {
+	font-size: (22rem * .10) * $multiplier;
+}
+
+
+@media #{$small} {
+	// Headings - tablets and up
+	h1 {
+		@include rem('font-size', 57px);
+	}
+	h2 {
+		@include rem('font-size', 49px);
+	}
+	h3 {
+		@include rem('font-size', 37px);
+	}
+	h4 {
+		@include rem('font-size', 27px);
+	}
+	h5 {
+		@include rem('font-size', 25px);
+	}
+	h6 {
+		@include rem('font-size', 22px);
+	}
+}
+.home [role=document] {
+	h1 {
+		&.page-title {
+			color: $primary-color;
+			border: none;
+			line-height: 120%;
+			+ hr {
+				display: none;
+			}
+		}
+
+	}
+}
+[role=document] {
+	h1 {
+		color: $header-font-color;
+		line-height: 120%;
+		&.page-title {
+			@include rem('margin', 10px 0 15px);
+			@include rem('padding-bottom', 15px);
+			border-bottom: 2px solid #222;
+			color: #222;
+			display: inline-block;
+			@include rem('font-size', 30px);
+			line-height: 1;
+			+ hr {
+				border-color: #222;
+				border-width: 5px 0 0;
+				@include rem('margin', -27px 0 50px);
+			}
+		}
+	}
+	h2 {
+		@include rem('padding-bottom', 13px);
+		border-bottom: 2px solid #222;
+		display: inline-block;
+		+ hr {
+			border-color: #222;
+			border-width: 5px 0 0;
+			margin-top: -22px;
+		}
+	}
+	ul, ol {
+		margin-left: 30px;
+	}
+}
+
+h3 {
+	color: #444;
+}
+@media #{$small} {
+	.home [role=document] {
+		h1 {
+			color: $primary-color;
+			border: none;
+			line-height: 120%;
+			+ hr {
+				display: none;
+			}
+		}
+	}
+	[role=document] {
+		h1 {
+			&.page-title {
+				@include rem('font-size', 57px);
+			}
+		}
+		h2 {
+			+ hr {
+				margin-top: -34px;
+			}
+		}
+	}
+}
+
+// Misc
+//--------------------------------
+
+.wf-loading {
+	h1, h2, h3, h4, h5, h6, p, a {
+		visibility: hidden;
+		// @include transition-property(visibility);
+		// @include transition-duration(500ms);
+		// @include transition-timing-function(ease-in)
+	}
+}
+.wf-active {
+	h1, h2, h3, h4, h5, h6, p, a {
+		visibility: visible;
+	}
+}
+#wpstats {
+	visibility: hidden;
+}
+span.slash {
+	letter-spacing: -5px;
+	margin: 0 10px 0 5px;
+}
+
+.row,
+.content.row,
+.contain-to-grid .top-bar {
+	@include rem('max-width', 1700px);
+}
+
+body.logged-in header.banner {
+	.fixed {
+		padding-top: 28px;
+	}
+}
+@media only screen and (max-width: emCalc(768px)) {
+	.home {
+		.content.row .large-8 {
+			width: 100%
+		}
+	}
+}
+
+// Reusable Styles
+//--------------------------------
+
+.btn {
+	@include btn-structure($color: $body-bg);
+}
+@media only screen and (max-width: emCalc(767px)) {
+	.btn {
+		font-size: 1.4rem;
+	}
+}
+.btn-alt {
+	@include btn-structure($color: $body-bg, $shadow-color: $primary-color);
+}
+@media only screen and (max-width: emCalc(767px)) {
+	.btn-alt {
+		font-size: 1.4rem;
+	}
+}
+.has-tip, span.tooltip {
+	font-weight: normal;
+}
+
+
+#jumbotron {
+	@include box-sizing(border-box);
+	background-color: $primary-color;
+	border-bottom: 1px solid darken($primary-color, 5%);
+	color: $body-bg;
+	min-height: 30px;
+	padding: 1.875em 0;
+	h1, h2, h3 {
+		color: $body-bg;
+	}
+	+ .wrap {
+		border-top: 1px solid #fff;
+	}
+	.content.row {
+		padding: 0;
+	}
+}
+::-moz-selection {  background: darken($primary-color, 5); color: $body-bg; }
+::selection      {  background: darken($primary-color, 5); color: $body-bg; }
+
+// Main
+//--------------------------------
+
+#crumbs {
+	@include rem('padding', 25px 0 0);
+	@include rem('font-size', 16px);
+	.columns {
+		margin-left: 7px;
+	}
+}
+
+.content.row {
+	padding: 30px 0 40px;
+}
+
+[role=document] {
+	background-color: $body-bg;
+}
+[role=main] article h1 {
+	margin-top: 1em;
+}
+
+
+// Footer
+//--------------------------------
+
+footer.content-info, footer.content-info{
+	color: #bbb;
+	font-family: $header-font-family;
+	font-weight: 200;
+	text-transform: uppercase;
+	p {
+		@include rem('margin', 15px 0);
+		@include rem('font-size', 14px);
+	}
+}
+
+
