@@ -203,19 +203,26 @@ body.logged-in header.banner {
 .btn {
 	@include btn-structure($color: $body-bg);
 }
+.btn-alt {
+	@include btn-structure($color: $body-bg, $shadow-color: $primary-color);
+}
+.button-group {
+	@include rem('margin', 60px 0 30px);
+	.btn {
+		+ .btn {
+			margin-left: 10px;
+		}
+	}
+}
 @media only screen and (max-width: emCalc(767px)) {
 	.btn {
 		font-size: 1.4rem;
 	}
-}
-.btn-alt {
-	@include btn-structure($color: $body-bg, $shadow-color: $primary-color);
-}
-@media only screen and (max-width: emCalc(767px)) {
 	.btn-alt {
 		font-size: 1.4rem;
 	}
 }
+
 .has-tip, span.tooltip {
 	font-weight: normal;
 }
@@ -262,6 +269,7 @@ body.logged-in header.banner {
 [role=main] article h1 {
 	margin-top: 1em;
 }
+
 
 
 // Footer

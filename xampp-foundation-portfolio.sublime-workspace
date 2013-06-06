@@ -5,7 +5,15 @@
 		[
 			[
 				"pr",
-				"project-title"
+				"primary-color"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"bac",
+				"background"
 			],
 			[
 				"previo",
@@ -22,10 +30,6 @@
 			[
 				"inline",
 				"inline-block"
-			],
-			[
-				"bac",
-				"background-color"
 			],
 			[
 				"portfolioBord",
@@ -288,10 +292,6 @@
 				"background-color"
 			],
 			[
-				"back",
-				"background-color"
-			],
-			[
 				"hero",
 				"hero-overlay"
 			],
@@ -515,7 +515,7 @@
 			"file": "scss/_styles.scss",
 			"settings":
 			{
-				"buffer_size": 4681,
+				"buffer_size": 4733,
 				"line_ending": "Windows"
 			}
 		},
@@ -531,23 +531,7 @@
 			"file": "scss/_fp-header.scss",
 			"settings":
 			{
-				"buffer_size": 3239,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "lib/portfolio-functions.php",
-			"settings":
-			{
-				"buffer_size": 16633,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "templates/content-portfolio-grid.php",
-			"settings":
-			{
-				"buffer_size": 2057,
+				"buffer_size": 4243,
 				"line_ending": "Windows"
 			}
 		},
@@ -560,50 +544,10 @@
 			}
 		},
 		{
-			"file": "lib/custom.php",
+			"file": "templates/content-portfolio-grid.php",
 			"settings":
 			{
-				"buffer_size": 3261,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "lib/breadcrumbs.php",
-			"settings":
-			{
-				"buffer_size": 4973,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "single-portfolio.php",
-			"settings":
-			{
-				"buffer_size": 879,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "functions.php",
-			"settings":
-			{
-				"buffer_size": 315,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "templates/content-page.php",
-			"settings":
-			{
-				"buffer_size": 294,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "templates/content-contact.php",
-			"settings":
-			{
-				"buffer_size": 454,
+				"buffer_size": 2057,
 				"line_ending": "Windows"
 			}
 		},
@@ -619,7 +563,7 @@
 			"file": "stylesheets/foundation.css",
 			"settings":
 			{
-				"buffer_size": 166640,
+				"buffer_size": 168927,
 				"line_ending": "Windows"
 			}
 		},
@@ -717,6 +661,14 @@
 	"file_history":
 	[
 		"/C/Program Files (x86)/Git/doc/git/html/git-config.html",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/config.rb",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/templates/content-contact.php",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/templates/content-page.php",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/functions.php",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/single-portfolio.php",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/lib/breadcrumbs.php",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/lib/custom.php",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/lib/portfolio-functions.php",
 		"/C/Program Files (x86)/Git/doc/git/html/git.html",
 		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/index.php",
 		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/javascripts/jquery.custom.js",
@@ -835,15 +787,7 @@
 		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/request-info.aspx",
 		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/tft-js/core/jquery.buildings.js",
 		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/screen-rooms.aspx",
-		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/trailers.aspx",
-		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/greenhouses.aspx",
-		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/gazebos.aspx",
-		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/less/forms.less",
-		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/login.aspx",
-		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/Controls/BaseControls/GenericLoginControl.ascx",
-		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/request-info.aspx.cs",
-		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/building-contact-form.aspx",
-		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/buildings.aspx"
+		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/trailers.aspx"
 	],
 	"find":
 	{
@@ -875,6 +819,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"#000",
+			"$body-bg",
+			"bg-color",
+			"primary",
+			"64px",
+			"3px",
+			"5",
+			"btn",
 			"842",
 			"845",
 			"max-width",
@@ -994,15 +946,7 @@
 			"lighten($portfolioBorder, 7)",
 			"10",
 			"7",
-			"$peach",
-			"390",
-			"$peach",
-			"clearfix()",
-			"5px",
-			"$border",
-			"0",
-			"$portfolio_meta_fields",
-			"jQuery"
+			"$peach"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -1020,7 +964,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -1028,15 +972,15 @@
 					"file": "scss/_styles.scss",
 					"settings":
 					{
-						"buffer_size": 4681,
+						"buffer_size": 4733,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1567,
-								1567
+								3649,
+								3647
 							]
 						],
 						"settings":
@@ -1048,7 +992,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1184.0,
+						"translation.y": 3445.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1088,15 +1032,15 @@
 					"file": "scss/_fp-header.scss",
 					"settings":
 					{
-						"buffer_size": 3239,
+						"buffer_size": 4243,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2834,
-								2834
+								1095,
+								1095
 							]
 						],
 						"settings":
@@ -1108,38 +1052,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 126.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "lib/portfolio-functions.php",
+					"file": "archive-portfolio.php",
 					"settings":
 					{
-						"buffer_size": 16633,
+						"buffer_size": 2434,
 						"regions":
 						{
-							"TagLint":
-							{
-								"flags": 52,
-								"icon": "dot",
-								"regions":
-								[
-									[
-										9653,
-										9662
-									]
-								],
-								"scope": "variable.parameter"
-							}
 						},
 						"selection":
 						[
 							[
-								240,
-								240
+								2257,
+								2257
 							]
 						],
 						"settings":
@@ -1149,11 +1080,11 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 266.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1192,243 +1123,6 @@
 				},
 				{
 					"buffer": 5,
-					"file": "archive-portfolio.php",
-					"settings":
-					{
-						"buffer_size": 2434,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2257,
-								2257
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 342.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "lib/custom.php",
-					"settings":
-					{
-						"buffer_size": 3261,
-						"regions":
-						{
-							"TagLint":
-							{
-								"flags": 52,
-								"icon": "dot",
-								"regions":
-								[
-									[
-										1835,
-										1838
-									]
-								],
-								"scope": "variable.parameter"
-							}
-						},
-						"selection":
-						[
-							[
-								3261,
-								3261
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1386.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "lib/breadcrumbs.php",
-					"settings":
-					{
-						"buffer_size": 4973,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2143,
-								2143
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 456.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "single-portfolio.php",
-					"settings":
-					{
-						"buffer_size": 879,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								483,
-								483
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "functions.php",
-					"settings":
-					{
-						"buffer_size": 315,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								314,
-								314
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "templates/content-page.php",
-					"settings":
-					{
-						"buffer_size": 294,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								142,
-								142
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "templates/content-contact.php",
-					"settings":
-					{
-						"buffer_size": 454,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								155,
-								155
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 2,
-			"sheets":
-			[
-				{
-					"buffer": 12,
 					"file": "templates/content-portfolio-single.php",
 					"settings":
 					{
@@ -1466,25 +1160,31 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 494.0,
+						"translation.y": 418.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
 				{
-					"buffer": 13,
+					"buffer": 6,
 					"file": "stylesheets/foundation.css",
 					"settings":
 					{
-						"buffer_size": 166640,
+						"buffer_size": 168927,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								150032,
-								150032
+								153433,
+								153433
 							]
 						],
 						"settings":
@@ -1497,13 +1197,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 71091.0,
+						"translation.y": 78900.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 7,
 					"file": "scss/_vars.scss",
 					"settings":
 					{
@@ -1610,6 +1310,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 225.0,
+	"side_bar_width": 213.0,
 	"status_bar_visible": true
 }
