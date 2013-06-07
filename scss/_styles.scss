@@ -241,6 +241,7 @@ body.logged-in header.banner {
 //   display: none;
 // }
 #jumbotron {
+	overflow: hidden;
 	@include box-sizing(border-box);
 	border-bottom: 1px solid darken($primary-color, 5%);
 	background-color: $primary-color;
@@ -255,11 +256,21 @@ body.logged-in header.banner {
 	h1 {
 		text-shadow: 3px 3px 25px rgba(darken($primary-color,60), .2);
 	}
+	.wpicon-wordpress-logo {
+		@include rem('font-size', 500px);
+		position: absolute;
+		top: 28px;
+		text-align: center;
+		width: 100%;
+		opacity: .45;
+	}
 	+ .wrap {
 		border-top: 1px solid #fff;
 	}
 	.content.row {
 		padding: 0;
+		position: relative;
+		z-index: 2;
 	}
 }
 ::-moz-selection {  background: darken($primary-color, 5); color: $body-bg; }

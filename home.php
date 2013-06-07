@@ -11,6 +11,7 @@ get_template_part('templates/head'); ?>
     <?php if ( is_active_sidebar( 'sidebar_jumbotron' ) ) : ?>
     <div id="demo"><div id="code"></div></div>
     <div id="jumbotron" class="wrap">
+      <i class="wpicon-wordpress-logo"></i>
       <?php dynamic_sidebar( 'sidebar_jumbotron' ); ?>
    </div>
     <?php endif; ?>

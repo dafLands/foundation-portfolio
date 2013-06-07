@@ -17,10 +17,5 @@
 <?php endif ?>
 <?php wp_footer(); ?>
 <script>
-	jQuery(document).foundation();
-	var $bodyH = $('body').height(), $windowH = window.innerHeight;
-	console.log('body: '+$bodyH + ' window: '+$windowH);
-	if ($bodyH < $windowH) {
-		$('footer.content-info').addClass('fixed-footer');
-	};
+jQuery(document).foundation();var $bodyH=$("body").height(),$windowH=window.innerHeight;if($bodyH<$windowH)$("footer.content-info").addClass("fixed-footer");
 </script>
