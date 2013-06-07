@@ -12,22 +12,38 @@
 	<script>jQuery(document).ready(function($){if($(".content.portfolio").length){$portThumb=$(".portfolio-thumbnail");$screenieWrap=$(".screenshot-wrap");$screenieWrap.addClass("active");$(".portfolio-thumbnail a").on("mouseenter click",function(e){var $this=$(this),$screenShot=$("img.screen-shot"),$currImage=$screenShot.attr("src"),$newImage=$this.attr("data-image");$portThumb.removeClass("active");$screenieWrap.removeClass("active");$this.parent("li").addClass("active");$("img.screen-shot").attr("src",
 	$newImage).delay(100).parent("span").addClass("active");return false})}});</script>
 <?php endif ?>
+<script>
+		// var noise = document.getElementsByTagName('svg')[0];
+
+		// // Convert the SVG node to HTML.
+		// var div = document.createElement('div');
+		// div.appendChild(noise.cloneNode(true));
+
+		// // Encode the SVG as base64
+		// var noiseb64 = 'data:image/svg+xml;base64,'+window.btoa(div.innerHTML);
+		// var noiseurl = 'url("' + noiseb64 + '")';
+		// noiseCss = 'background-image: ' + noiseurl + ';';
+		// // $('.contain-to-grid').attr('style', noiseCss);
+		// console.log(noiseCss);
+
+</script>
 <?php if (is_front_page()): ?>
 	<script>
 		// Short script to encode our SVG in base64
 		// This can be reversed using window.atob('base64')
-		var svg = document.getElementsByTagName('svg')[0];
+		var geo = document.getElementsByTagName('svg')[1];
 
 		// Convert the SVG node to HTML.
 		var div = document.createElement('div');
-		div.appendChild(svg.cloneNode(true));
+		div.appendChild(geo.cloneNode(true));
 
 		// Encode the SVG as base64
-		var b64 = 'data:image/svg+xml;base64,'+window.btoa(div.innerHTML);
-		var url = 'url("' + b64 + '")';
+		var geob64 = 'data:image/svg+xml;base64,'+window.btoa(div.innerHTML);
+		var geourl = 'url("' + geob64 + '")';
 
-		codeCss = 'background-image: ' + url + ';';
-		$('#jumbotron').attr('style', codeCss);
+		geoCss = 'background-image: ' + geourl + ';';
+		$('#jumbotron').attr('style', geoCss);
+
 	</script>
 <?php endif; ?>
 <?php wp_footer(); ?>

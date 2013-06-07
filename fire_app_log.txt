@@ -540,3 +540,16 @@ Load paths:
 2013-06-07 09:33:47 identical stylesheets/foundation.css 
 2013-06-07 09:34:08 overwrite stylesheets/foundation.css 
 2013-06-07 09:34:32 overwrite stylesheets/foundation.css 
+2013-06-07 10:05:54 overwrite stylesheets/foundation.css 
+2013-06-07 10:45:44     error scss/foundation.scss (Line 41 of scss/_fp-header.scss: Invalid CSS after "...jdD4KPC9zdmc+")": expected ")", was ";")
+2013-06-07 10:45:44 overwrite stylesheets/foundation.css 
+2013-06-07 10:46:04     error scss/foundation.scss (Line 41 of scss/_fp-header.scss: Invalid CSS after "...jdD4KPC9zdmc+")": expected ")", was ";")
+2013-06-07 10:46:04 identical stylesheets/foundation.css 
+2013-06-07 10:46:21 overwrite stylesheets/foundation.css 
+2013-06-07 10:47:06 identical stylesheets/foundation.css 
+2013-06-07 10:47:30 overwrite stylesheets/foundation.css 
+2013-06-07 10:47:43 identical stylesheets/foundation.css 
+2013-06-07 10:49:40 overwrite stylesheets/foundation.css 
+2013-06-07 10:50:12 overwrite stylesheets/foundation.css 
+2013-06-07 10:50:35 overwrite stylesheets/foundation.css 
+2013-06-07 10:51:01 overwrite stylesheets/foundation.css 
