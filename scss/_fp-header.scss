@@ -32,7 +32,7 @@ header.banner > .fixed {
 		border-top: 2px solid lighten($primary-color, 2);
 		height: 20px;
 		bottom: -17px;
-		@include background-image(linear-gradient(darken($primary-color, 25), darken($primary-color, 5) 10%, darken($primary-color, 2) 30%, $primary-color));
+		@include background-image(linear-gradient(darken($primary-color, 25), rgba(darken($primary-color, 5), .70) 10%, rgba(darken($primary-color, 2), .45) 30%, rgba($primary-color, 0.01)));
 	}
 	header.banner {
 		box-shadow: 0 6px 10px -6px rgba(darken($body-bg, 80), .5);
