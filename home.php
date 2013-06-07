@@ -8,14 +8,7 @@ get_template_part('templates/head'); ?>
   <?php get_template_part('templates/header'); ?>
 
   <div role="document">
-     <?php if ( is_active_sidebar( 'sidebar_jumbotron' ) ) : ?>
-    <!-- This SVG will be encoded as a base64 -->
-    <!-- image for cross-browser compatibility -->
-    <svg xmlns='http://www.w3.org/2000/svg' width='56' height='100'>
-    <rect width='56' height='100' fill='#FF4D56'/>
-    <path d='M28 66L0 50L0 16L28 0L56 16L56 50L28 66L28 100' fill='none' stroke='#ff7279' stroke-width='2'/>
-    <path d='M28 0L28 34L0 50L0 84L28 100L56 84L56 50L28 34' fill='none' stroke='#ff666d' stroke-width='2'/>
-    </svg>
+    <?php if ( is_active_sidebar( 'sidebar_jumbotron' ) ) : ?>
     <div id="demo"><div id="code"></div></div>
     <div id="jumbotron" class="wrap">
       <?php dynamic_sidebar( 'sidebar_jumbotron' ); ?>

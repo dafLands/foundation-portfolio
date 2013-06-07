@@ -26,7 +26,9 @@
 
 html
 body {
-	background-color: #333;
+	background: $body-bg;
+	// @include background-image(url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjRkZGRUZDIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiNmZmZiZjQiPjwvcmVjdD4KPC9zdmc+"));
+	// background-repeat: repeat;
 }
 // Type
 //--------------------------------
@@ -235,12 +237,15 @@ body.logged-in header.banner {
 	font-weight: normal;
 }
 
-svg {
-  display: none;
-}
+// svg {
+//   display: none;
+// }
 #jumbotron {
 	@include box-sizing(border-box);
 	border-bottom: 1px solid darken($primary-color, 5%);
+	background-color: $primary-color;
+	@include background-image(url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NiIgaGVpZ2h0PSIxMDAiPgogICAgPHJlY3Qgd2lkdGg9IjU2IiBoZWlnaHQ9IjEwMCIgZmlsbD0iI0ZGNEQ1NiI+PC9yZWN0PgogICAgPHBhdGggZD0iTTI4IDY2TDAgNTBMMCAxNkwyOCAwTDU2IDE2TDU2IDUwTDI4IDY2TDI4IDEwMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmY3Mjc5IiBzdHJva2Utd2lkdGg9IjIiPjwvcGF0aD4KICAgIDxwYXRoIGQ9Ik0yOCAwTDI4IDM0TDAgNTBMMCA4NEwyOCAxMDBMNTYgODRMNTYgNTBMMjggMzQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmNjY2ZCIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+CiAgICA8L3N2Zz4="));
+	background-repeat: repeat;
 	color: $body-bg;
 	min-height: 30px;
 	padding: 1.875em 0;
@@ -276,7 +281,7 @@ svg {
 }
 
 [role=document] {
-	background-color: $body-bg;
+	// background-color: $body-bg;
 }
 [role=main] article h1 {
 	margin-top: 1em;
@@ -287,11 +292,21 @@ svg {
 // Footer
 //--------------------------------
 
-footer.content-info, footer.content-info{
+footer.content-info {
 	color: #bbb;
 	font-family: $header-font-family;
 	font-weight: 200;
 	text-transform: uppercase;
+	background-color: #333;
+	@include background-image(url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCI+CjxmaWx0ZXIgaWQ9Im4iIHg9IjAiIHk9IjAiPgo8ZmVUdXJidWxlbmNlIHR5cGU9ImZyYWN0YWxOb2lzZSIgYmFzZUZyZXF1ZW5jeT0iMC43IiBudW1PY3RhdmVzPSIxMCIgc3RpdGNoVGlsZXM9InN0aXRjaCI+PC9mZVR1cmJ1bGVuY2U+CjwvZmlsdGVyPgo8cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iIzMzMyI+PC9yZWN0Pgo8cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsdGVyPSJ1cmwoI24pIiBvcGFjaXR5PSIwLjA5Ij48L3JlY3Q+Cjwvc3ZnPg=="));
+	background-repeat: repeat;
+	&.fixed-footer {
+	    left: 0;
+	    position: fixed;
+	    bottom: 0;
+	    width: 100%;
+	    z-index: 99;
+	}
 	p {
 		@include rem('margin', 15px 0);
 		@include rem('font-size', 14px);

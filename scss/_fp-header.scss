@@ -21,7 +21,9 @@ header.banner {
 	box-shadow: 0 4px 8px -4px rgba(darken($body-bg, 80), .5);
 	border-bottom: 1px solid darken($primary-color, 10);
 	a.brand {
-		text-shadow: 2px 2px 2px rgba(darken($primary-color, 20), 0.25);
+		// text-shadow: 2px 2px 2px rgba(darken($primary-color, 20), 0.25);
+		text-shadow: 2px 2px 12px rgba(darken($primary-color,60), .2);
+
 	}
 }
 header.banner > .fixed {

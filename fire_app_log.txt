@@ -556,3 +556,31 @@ Load paths:
 2013-06-07 11:09:56 overwrite stylesheets/foundation.css 
 2013-06-07 11:52:03 overwrite stylesheets/foundation.css 
 2013-06-07 11:52:55 overwrite stylesheets/foundation.css 
+2013-06-07 13:14:09     error scss/foundation.scss (Line 30 of scss/_styles.scss: Invalid CSS after "...ackground-image": expected comma, was ": url("data:ima...")
+2013-06-07 13:14:09 overwrite stylesheets/foundation.css 
+2013-06-07 13:14:43     error scss/foundation.scss (Line 30 of scss/_styles.scss: Invalid CSS after "...jdD4KPC9zdmc+")": expected ")", was ";);")
+2013-06-07 13:14:43 overwrite stylesheets/foundation.css 
+2013-06-07 13:15:00 overwrite stylesheets/foundation.css 
+2013-06-07 13:15:47 overwrite stylesheets/foundation.css 
+2013-06-07 13:16:20 overwrite stylesheets/foundation.css 
+2013-06-07 13:17:25     error scss/foundation.scss (Line 298 of scss/_styles.scss: Invalid CSS after "	background-image": expected "{", was "(background-ima...")
+2013-06-07 13:17:25 overwrite stylesheets/foundation.css 
+2013-06-07 13:17:42     error scss/foundation.scss (Line 298 of scss/_styles.scss: Invalid CSS after "	background-image": expected "{", was "(url("data:imag...")
+2013-06-07 13:17:42 overwrite stylesheets/foundation.css 
+2013-06-07 13:17:57 overwrite stylesheets/foundation.css 
+2013-06-07 13:19:45 overwrite stylesheets/foundation.css 
+2013-06-07 13:21:48 overwrite stylesheets/foundation.css 
+2013-06-07 13:23:25 overwrite stylesheets/foundation.css 
+2013-06-07 13:24:02 overwrite stylesheets/foundation.css 
+2013-06-07 13:27:01 identical stylesheets/foundation.css 
+2013-06-07 13:27:40 overwrite stylesheets/foundation.css 
+2013-06-07 13:32:33 overwrite stylesheets/foundation.css 
+2013-06-07 13:49:34 overwrite stylesheets/foundation.css 
+2013-06-07 13:50:00 overwrite stylesheets/foundation.css 
+2013-06-07 13:50:31 overwrite stylesheets/foundation.css 
+2013-06-07 13:50:50 overwrite stylesheets/foundation.css 
+2013-06-07 13:51:11 overwrite stylesheets/foundation.css 
+2013-06-07 13:51:53 overwrite stylesheets/foundation.css 
+2013-06-07 13:52:42 overwrite stylesheets/foundation.css 
+2013-06-07 13:53:13 overwrite stylesheets/foundation.css 
+2013-06-07 14:08:58 overwrite stylesheets/foundation.css 
