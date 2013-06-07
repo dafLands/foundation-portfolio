@@ -6,7 +6,7 @@ header.banner {
 	position: relative;
 	.home & {
 		&:after {
-			@include background-image(linear-gradient(darken($primary-color, 35), darken($primary-color, 5) 10%, darken($primary-color, 2) 30%, $primary-color));
+		@include background-image(linear-gradient(darken($primary-color, 25), rgba(darken($primary-color, 5), .70) 10%, rgba(darken($primary-color, 2), .45) 30%, rgba($primary-color, 0.01)));
 			border-top: 2px solid lighten($primary-color, 2);
 			content: '';
 			width: 100%;

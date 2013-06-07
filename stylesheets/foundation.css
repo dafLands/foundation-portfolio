@@ -2451,20 +2451,20 @@ h6 { font-size: 1.1rem; }
 [role=document] h2 + hr { border-color: #222; border-width: 5px 0 0; margin-top: -22px; }
 /* line 124, ../scss/_styles.scss */
 [role=document] ul, [role=document] ol { margin-left: 30px; }
-/* line 127, ../scss/_styles.scss */
-[role=document] .content-columns { -moz-column-count: 2; -moz-column-gap: 30px; -webkit-column-count: 2; -webkit-column-gap: 30px; column-count: 2; column-gap: 30px; }
 
-/* line 137, ../scss/_styles.scss */
+/* line 129, ../scss/_styles.scss */
 h3 { color: #444; }
 
-@media only screen and (min-width: 48em) { /* line 142, ../scss/_styles.scss */
+@media only screen and (min-width: 48em) { /* line 134, ../scss/_styles.scss */
   .home [role=document] h1 { color: #ff4d56; border: none; line-height: 120%; }
-  /* line 146, ../scss/_styles.scss */
+  /* line 138, ../scss/_styles.scss */
   .home [role=document] h1 + hr { display: none; }
-  /* line 153, ../scss/_styles.scss */
+  /* line 145, ../scss/_styles.scss */
   [role=document] h1.page-title { font-size: 57px; font-size: 5.7rem; }
-  /* line 158, ../scss/_styles.scss */
-  [role=document] h2 + hr { margin-top: -34px; } }
+  /* line 150, ../scss/_styles.scss */
+  [role=document] h2 + hr { margin-top: -34px; }
+  /* line 154, ../scss/_styles.scss */
+  [role=document] .content-columns { -moz-column-count: 2; -moz-column-gap: 30px; -webkit-column-count: 2; -webkit-column-gap: 30px; column-count: 2; column-gap: 30px; } }
 /* line 169, ../scss/_styles.scss */
 .wf-loading h1, .wf-loading h2, .wf-loading h3, .wf-loading h4, .wf-loading h5, .wf-loading h6, .wf-loading p, .wf-loading a { visibility: hidden; }
 
@@ -2555,7 +2555,7 @@ header.banner { background-color: #ff4d56; position: relative; box-shadow: 0 4px
 /* line 7, ../scss/_fp-header.scss */
 .home header.banner { box-shadow: none; border: none; }
 /* line 8, ../scss/_fp-header.scss */
-.home header.banner:after { background-image: -webkit-linear-gradient(#9a0008, #ff333e 10%, #ff434c 30%, #ff4d56); background-image: -moz-linear-gradient(#9a0008, #ff333e 10%, #ff434c 30%, #ff4d56); background-image: -o-linear-gradient(#9a0008, #ff333e 10%, #ff434c 30%, #ff4d56); background-image: linear-gradient(#9a0008, #ff333e 10%, #ff434c 30%, #ff4d56); border-top: 2px solid #ff5760; content: ''; width: 100%; height: 7px; background-repeat: repeat-x; position: absolute; bottom: -7px; }
+.home header.banner:after { background-image: -webkit-linear-gradient(#cc000a, rgba(255, 51, 62, 0.7) 10%, rgba(255, 67, 76, 0.45) 30%, rgba(255, 77, 86, 0.01)); background-image: -moz-linear-gradient(#cc000a, rgba(255, 51, 62, 0.7) 10%, rgba(255, 67, 76, 0.45) 30%, rgba(255, 77, 86, 0.01)); background-image: -o-linear-gradient(#cc000a, rgba(255, 51, 62, 0.7) 10%, rgba(255, 67, 76, 0.45) 30%, rgba(255, 77, 86, 0.01)); background-image: linear-gradient(#cc000a, rgba(255, 51, 62, 0.7) 10%, rgba(255, 67, 76, 0.45) 30%, rgba(255, 77, 86, 0.01)); border-top: 2px solid #ff5760; content: ''; width: 100%; height: 7px; background-repeat: repeat-x; position: absolute; bottom: -7px; }
 /* line 23, ../scss/_fp-header.scss */
 header.banner a.brand { text-shadow: 2px 2px 2px rgba(230, 0, 12, 0.25); }
 
