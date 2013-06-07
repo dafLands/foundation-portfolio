@@ -333,13 +333,13 @@
 			@include transition-property(all);
 			@include transition-timing-function(linear);
 			padding-left: 16px;
-			@include transition-duration(200ms);
+			@include transition-duration(100ms);
 		}
 		[class^=icon] {
 			@include transition-property(all);
 			@include transition-timing-function(linear);
 			opacity: 0;
-			@include transition-duration(200ms);
+			@include transition-duration(100ms);
 		}
 		&:hover {
 			[class=text] {
@@ -350,7 +350,7 @@
 				opacity: 1;
 			}
 		}
-		@include transition-duration(200ms);
+		@include transition-duration(100ms);
 	}
 	a.site-link [class^=icon]{
 		@include rem('font-size', 14px);

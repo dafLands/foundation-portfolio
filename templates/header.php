@@ -1,10 +1,3 @@
-<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='300' height='300'>
-<filter id='n' x='0' y='0'>
-<feTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='10' stitchTiles='stitch'/>
-</filter>
-<rect width='300' height='300' fill='#FF4D56'/>
-<rect width='300' height='300' filter="url(#n)" opacity='0.3'/>
-</svg>
 <header class="banner" role="banner">
   <div class="contain-to-grid">
       <nav class="top-bar nav-main" role="navigation">
