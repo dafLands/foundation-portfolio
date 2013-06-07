@@ -563,7 +563,7 @@
 			"file": "stylesheets/foundation.css",
 			"settings":
 			{
-				"buffer_size": 168927,
+				"buffer_size": 169228,
 				"line_ending": "Windows"
 			}
 		},
@@ -1176,15 +1176,15 @@
 					"file": "stylesheets/foundation.css",
 					"settings":
 					{
-						"buffer_size": 168927,
+						"buffer_size": 169228,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								153433,
-								153433
+								0,
+								0
 							]
 						],
 						"settings":

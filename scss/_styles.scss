@@ -124,6 +124,14 @@ h6 {
 	ul, ol {
 		margin-left: 30px;
 	}
+	.content-columns {
+		-moz-column-count: 2;
+        -moz-column-gap: 30px;
+        -webkit-column-count: 2;
+        -webkit-column-gap: 30px;
+        column-count: 2;
+		column-gap: 30px;
+	}
 }
 
 h3 {
@@ -207,7 +215,7 @@ body.logged-in header.banner {
 	@include btn-structure($color: $body-bg, $shadow-color: $primary-color);
 }
 .button-group {
-	@include rem('margin', 60px 0 30px);
+	@include rem('margin', 30px 0);
 	.btn {
 		+ .btn {
 			margin-left: 10px;
