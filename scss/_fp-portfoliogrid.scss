@@ -484,7 +484,9 @@ nav.post-nav {
 			@include background-image(linear-gradient(lighten($color, 3), darken($color, 3)));
 			color: darken($portfolioBorder, 30);
 			display: inline-block;
-			padding: ($column-gutter / 2) 0;
+			// padding: ($column-gutter / 2) 0;
+			height: 45px;
+			line-height: 45px;
 			text-shadow: 0 1px 0 rgba(#fff, 0.2);
 			width: 50%;
 			&:hover {

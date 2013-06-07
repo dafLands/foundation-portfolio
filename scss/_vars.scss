@@ -68,7 +68,7 @@ $phone-landscape: $landscape + " and (max-width:"#{$jg_phone}")";
 
 // btns not buttons - .btn class
 @mixin btn-structure($bg-color: #333, $color: #fff, $shadow-color: $bg-color, $border-radius: 4px, $font-family: $header-font-family, $font-style: italic, $text-transform: normal, $font-weight: $header-font-weight){
-	@include rem('padding', 6px 10px 5px);
+	@include rem('padding', 0 20px);
 	@include btn-level($bg-color, $shadow-color, $color);
 	border-radius: $border-radius;
 	color: $color;
@@ -77,6 +77,8 @@ $phone-landscape: $landscape + " and (max-width:"#{$jg_phone}")";
 	font-style: $font-style;
 	font-weight: $font-weight;
 	position: relative;
+	height: 45px;
+	line-height: 45px;
 	text-transform: $text-transform;
 	text-shadow: 0 1px 0 darken($bg-color, 10);
 	&:hover {

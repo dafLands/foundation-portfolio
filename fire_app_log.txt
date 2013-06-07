@@ -604,3 +604,12 @@ Load paths:
 2013-06-07 14:48:42 overwrite stylesheets/foundation.css 
 2013-06-07 14:54:28 overwrite stylesheets/foundation.css 
 2013-06-07 15:15:15 overwrite stylesheets/foundation.css 
+2013-06-07 15:19:58 overwrite stylesheets/foundation.css 
+2013-06-07 15:24:54 overwrite stylesheets/foundation.css 
+2013-06-07 15:28:22     error scss/foundation.scss (Line 71 of scss/_vars.scss: Invalid CSS after "...adding', 0 10px": expected ")", was ";")
+2013-06-07 15:28:22 overwrite stylesheets/foundation.css 
+2013-06-07 15:28:46 overwrite stylesheets/foundation.css 
+2013-06-07 15:29:23 overwrite stylesheets/foundation.css 
+2013-06-07 15:29:36 overwrite stylesheets/foundation.css 
+2013-06-07 15:34:23 overwrite stylesheets/foundation.css 
+2013-06-07 15:34:56 overwrite stylesheets/foundation.css 

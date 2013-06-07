@@ -209,10 +209,13 @@ body.logged-in header.banner {
 
 // Reusable Styles
 //--------------------------------
-
-.btn {
+input[type="button"], input.button {
+	border: none;
+}
+.btn, input[type="button"], input.button {
 	@include btn-structure($color: $body-bg);
 }
+
 .btn-alt {
 	@include btn-structure($color: $body-bg, $shadow-color: $primary-color);
 }
