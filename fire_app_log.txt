@@ -613,3 +613,32 @@ Load paths:
 2013-06-07 15:29:36 overwrite stylesheets/foundation.css 
 2013-06-07 15:34:23 overwrite stylesheets/foundation.css 
 2013-06-07 15:34:56 overwrite stylesheets/foundation.css 
+2013-06-07 15:52:45 overwrite stylesheets/foundation.css 
+2013-06-07 15:56:10 overwrite stylesheets/foundation.css 
+2013-06-07 15:56:37 overwrite stylesheets/foundation.css 
+2013-06-07 16:44:31 overwrite stylesheets/foundation.css 
+2013-06-07 16:46:08 overwrite stylesheets/foundation.css 
+2013-06-07 16:46:26 overwrite stylesheets/foundation.css 
+2013-06-07 16:48:20 overwrite stylesheets/foundation.css 
+2013-06-07 16:49:07 overwrite stylesheets/foundation.css 
+2013-06-07 16:50:40 overwrite stylesheets/foundation.css 
+2013-06-07 16:51:23 overwrite stylesheets/foundation.css 
+2013-06-07 16:51:53 overwrite stylesheets/foundation.css 
+2013-06-07 16:53:57 overwrite stylesheets/foundation.css 
+2013-06-07 16:54:34 identical stylesheets/foundation.css 
+2013-06-07 16:58:46 overwrite stylesheets/foundation.css 
+2013-06-09 13:59:38 overwrite stylesheets/foundation.css 
+2013-06-09 14:03:13 identical stylesheets/foundation.css 
+2013-06-09 14:25:36 overwrite stylesheets/foundation.css 
+2013-06-09 14:25:48 overwrite stylesheets/foundation.css 
+2013-06-09 14:28:22     error scss/foundation.scss (Line 249 of scss/_styles.scss: Function emCalc is missing argument $pxWidth.)
+2013-06-09 14:28:22 overwrite stylesheets/foundation.css 
+2013-06-09 14:28:36     error scss/foundation.scss (Line 249 of scss/_styles.scss: 67.375em/px isn't a valid CSS value.)
+2013-06-09 14:28:36 overwrite stylesheets/foundation.css 
+2013-06-09 14:29:01     error scss/foundation.scss (Line 249 of scss/_styles.scss: 67.375em/px isn't a valid CSS value.)
+2013-06-09 14:29:01 identical stylesheets/foundation.css 
+2013-06-09 14:29:14 overwrite stylesheets/foundation.css 
+2013-06-09 14:30:31 overwrite stylesheets/foundation.css 
+2013-06-09 14:31:42 overwrite stylesheets/foundation.css 
+2013-06-09 14:35:55 overwrite stylesheets/foundation.css 
+2013-06-09 14:38:05 overwrite stylesheets/foundation.css 

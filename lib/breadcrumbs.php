@@ -46,7 +46,7 @@ function qt_custom_breadcrumbs() {
         $post_type = get_post_type_object(get_post_type());
         $slug = $post_type->rewrite;
         if ($post_type = 'portfolio') {
-          echo '<a href="' . $homeLink . '/' . $slug['slug'] . '/">' . 'Work' . '</a>';
+          echo '<a href="' . $homeLink . '/' . $slug['slug'] . '/">' . 'Work ' . '</a>';
         } else {
           echo '<a href="' . $homeLink . '/' . $slug['slug'] . '/">' . $post_type->labels->singular_name . '</a>';
         }
@@ -63,7 +63,7 @@ function qt_custom_breadcrumbs() {
     } elseif ( !is_single() && !is_page() && get_post_type() != 'post' && !is_404() ) {
       $post_type = get_post_type_object(get_post_type());
       if ($post_type = 'portfolio') {
-        echo $before . 'Work' . $after;
+        echo $before . 'Work ' . $after;
       } else {
         echo $before . $post_type->labels->singular_name . $after;
       }

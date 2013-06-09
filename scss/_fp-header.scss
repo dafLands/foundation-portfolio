@@ -125,7 +125,7 @@ header.banner > .fixed {
 			width: 340px;
 			h1 {
 				@include rem('font-size', round(50px * 0.7));
-				@include rem('margin', 5px 0 1px);
+				@include rem('margin', 6px 0 1px);
 			}
 			h2 {
 				@include rem('font-size', round(20px * 0.7));
@@ -147,7 +147,7 @@ header.banner > .fixed {
 			width: 510px;
 			h1 {
 				@include rem('font-size', 50px);
-				@include rem('margin', 9px 0 0);
+				@include rem('margin', 11px 0 0);
 			}
 			h2 {
 				@include rem('font-size', 20px);
@@ -168,13 +168,13 @@ header.banner > .fixed {
 			width: 460px;
 			h1 {
 				@include rem('font-size', round(50px * 0.8));
-				@include rem('margin', round(9px * 0.8) 0 4px);
+				@include rem('margin', 6px 0 4px);
 			}
 			h2 {
 				@include rem('font-size', round(20px * 0.8));
 			}
 			i.icon-logo {
-				@include rem('font-size', round(88px * 0.8));
+				@include rem('font-size', 75px);
 			}
 		}
 	}
@@ -202,4 +202,67 @@ header.banner > .fixed {
 		}
 	}
 
+}
+
+#jumbotron {
+	overflow: hidden;
+	// @include box-sizing(border-box);
+	border-bottom: 1px solid darken($primary-color, 5%);
+	background-color: $primary-color;
+	@include background-image(url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NiIgaGVpZ2h0PSIxMDAiPgogICAgPHJlY3Qgd2lkdGg9IjU2IiBoZWlnaHQ9IjEwMCIgZmlsbD0iI0ZGNEQ1NiI+PC9yZWN0PgogICAgPHBhdGggZD0iTTI4IDY2TDAgNTBMMCAxNkwyOCAwTDU2IDE2TDU2IDUwTDI4IDY2TDI4IDEwMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmY3Mjc5IiBzdHJva2Utd2lkdGg9IjIiPjwvcGF0aD4KICAgIDxwYXRoIGQ9Ik0yOCAwTDI4IDM0TDAgNTBMMCA4NEwyOCAxMDBMNTYgODRMNTYgNTBMMjggMzQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmNjY2ZCIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+CiAgICA8L3N2Zz4="));
+	background-repeat: repeat;
+	color: $body-bg;
+	min-height: 30px;
+	padding: 1.875em 0;
+	h1, h2, h3 {
+		color: $body-bg;
+	}
+	h1 {
+		text-shadow: 3px 3px 25px rgba(darken($primary-color,60), .2);
+	}
+	&:hover .wpicon-wordpress-logo {
+		opacity: .55;
+	}
+	.wpicon-wordpress-logo {
+		@include rem('font-size', 500px);
+		display: block;
+		height: 311px;
+		line-height: 294px;
+		overflow:hidden;
+		position: absolute;
+		top: 73px;
+		text-align: center;
+		width: 100%;
+		opacity: .35;
+		@include transition-property(opacity);
+		@include transition-duration(200ms);
+		@include transition-timing-function(ease-in);
+	}
+	+ .wrap {
+		border-top: 1px solid #fff;
+	}
+	.content.row {
+		padding: 0;
+		position: relative;
+		z-index: 2;
+	}
+}
+@media only screen and (min-width: emCalc(954px)) {
+	#jumbotron {
+		.wpicon-wordpress-logo {
+			@include rem('font-size', 500px);
+			display: block;
+			height: 311px;
+			line-height: 294px;
+			overflow:hidden;
+			position: absolute;
+			top: 123px;
+			text-align: center;
+			width: 100%;
+			opacity: .35;
+			@include transition-property(opacity);
+			@include transition-duration(200ms);
+			@include transition-timing-function(ease-in);
+		}
+	}
 }

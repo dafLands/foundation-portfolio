@@ -408,6 +408,7 @@
 // 	}
 // }
 
+
 // .touch.opacity .portfolio-item {
 .opacity .portfolio-item {
 	&.portfolio-grid {
@@ -449,7 +450,7 @@
 
 	}
 }
-@media only screen and (max-width: emCalc(767px)) {
+@media only screen and (max-width: emCalc(1100px)) {
 	// .touch.opacity .portfolio-item {
 	.opacity .portfolio-item {
 		&.portfolio-grid {
