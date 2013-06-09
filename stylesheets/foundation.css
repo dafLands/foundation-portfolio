@@ -2708,8 +2708,14 @@ header.banner a.brand { text-shadow: 2px 2px 12px rgba(26, 0, 1, 0.2); }
 /* line 244, ../scss/_fp-header.scss */
 #jumbotron .content.row { padding: 0; position: relative; z-index: 2; }
 
-@media only screen and (min-width: 59.625em) { /* line 252, ../scss/_fp-header.scss */
-  #jumbotron .wpicon-wordpress-logo { font-size: 500px; font-size: 50rem; display: block; height: 311px; line-height: 294px; overflow: hidden; position: absolute; top: 123px; text-align: center; width: 100%; opacity: .35; -webkit-transition-property: opacity; -moz-transition-property: opacity; -o-transition-property: opacity; transition-property: opacity; -webkit-transition-duration: 200ms; -moz-transition-duration: 200ms; -o-transition-duration: 200ms; transition-duration: 200ms; -webkit-transition-timing-function: ease-in; -moz-transition-timing-function: ease-in; -o-transition-timing-function: ease-in; transition-timing-function: ease-in; } }
+@media only screen and (min-width: 30.4375em) { /* line 252, ../scss/_fp-header.scss */
+  #jumbotron .wpicon-wordpress-logo { top: 67px; } }
+@media only screen and (min-width: 48.0625em) and (max-width: 59.75em) { /* line 259, ../scss/_fp-header.scss */
+  #jumbotron .row .large-8 { width: 91.66667%; }
+  /* line 262, ../scss/_fp-header.scss */
+  #jumbotron .wpicon-wordpress-logo { top: 90px; } }
+@media only screen and (min-width: 59.625em) { /* line 269, ../scss/_fp-header.scss */
+  #jumbotron .wpicon-wordpress-logo { top: 123px; } }
 /* line 4, ../scss/_fp-portfoliogrid.scss */
 .screenshot-wrap img, .portfolio-thumbnail img { -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; vertical-align: middle; }
 

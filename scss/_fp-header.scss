@@ -247,22 +247,27 @@ header.banner > .fixed {
 		z-index: 2;
 	}
 }
+@media only screen and (min-width: emCalc(487px)) {
+	#jumbotron {
+		.wpicon-wordpress-logo {
+			top: 67px;
+		}
+	}
+}
+@media only screen and (min-width: emCalc(769px)) and (max-width: emCalc(956px)) {
+	#jumbotron {
+		.row .large-8 {
+			width: percentage(11/12);
+		}
+		.wpicon-wordpress-logo {
+			top: 90px;
+		}
+	}
+}
 @media only screen and (min-width: emCalc(954px)) {
 	#jumbotron {
 		.wpicon-wordpress-logo {
-			@include rem('font-size', 500px);
-			display: block;
-			height: 311px;
-			line-height: 294px;
-			overflow:hidden;
-			position: absolute;
 			top: 123px;
-			text-align: center;
-			width: 100%;
-			opacity: .35;
-			@include transition-property(opacity);
-			@include transition-duration(200ms);
-			@include transition-timing-function(ease-in);
 		}
 	}
 }
