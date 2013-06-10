@@ -24,5 +24,3 @@ output_style = :compressed
 # and then run:
 # sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
 preferred_syntax = :scss
-
-output_style = :compact # by Fire.app

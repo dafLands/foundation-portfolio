@@ -226,7 +226,7 @@ header.banner > .fixed {
 	.wpicon-wordpress-logo {
 		@include rem('font-size', 500px);
 		display: block;
-		height: 311px;
+		height: 258px;
 		line-height: 294px;
 		overflow:hidden;
 		position: absolute;
@@ -254,20 +254,55 @@ header.banner > .fixed {
 		}
 	}
 }
-@media only screen and (min-width: emCalc(769px)) and (max-width: emCalc(956px)) {
+@media only screen and (min-width: emCalc(768px)) and (max-width: emCalc(956px)) {
 	#jumbotron {
 		.row .large-8 {
 			width: percentage(11/12);
 		}
 		.wpicon-wordpress-logo {
-			top: 90px;
+			top: 65px;
+			height: 312px;
+			@include rem('font-size', 600px);
+			text-indent: 286px;
 		}
 	}
 }
-@media only screen and (min-width: emCalc(954px)) {
+@media only screen and (min-width: emCalc(769px)) {
+	#jumbotron {
+		.wpicon-wordpress-logo {
+			top: 87px;
+			height: 314px;
+		}
+	}
+}
+@media only screen and (min-width: emCalc(941px)) {
 	#jumbotron {
 		.wpicon-wordpress-logo {
 			top: 123px;
+			height: 312px;
+			@include rem('font-size', 600px);
+			text-indent: 286px;
+		}
+	}
+}
+@media only screen and (min-width: emCalc(1300px)) {
+	#jumbotron {
+		padding: 3.875em 0;
+		.wpicon-wordpress-logo {
+			top: 123px;
+			height: 385px;
+			line-height: 385px;
+			@include rem('font-size', 710px);
+			text-indent: 286px;
+		}
+	}
+}
+@media only screen and (min-width: emCalc(1500px)) {
+	#jumbotron {
+		.wpicon-wordpress-logo {
+			line-height: 414px;
+			@include rem('font-size', 800px);
+			text-indent: 286px;
 		}
 	}
 }

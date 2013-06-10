@@ -6,7 +6,7 @@ if ( function_exists( 'add_theme_support' ) ) {
 	add_theme_support( 'post-thumbnails' );
 	set_post_thumbnail_size( 387, 290 ); // Normal post thumbnails
 	add_image_size( 'portfolio-preview', 80, 60, true );
-	add_image_size( 'screen-shot', 800, 9999 ); // Large Portfolio Image
+	add_image_size( 'screen-shot', 816, 9999 ); // Large Portfolio Image
 }
 
 // Removes height and width attributes from "the_post_thumbnail"
