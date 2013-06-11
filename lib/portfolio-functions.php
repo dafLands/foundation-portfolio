@@ -5,8 +5,8 @@
 if ( function_exists( 'add_theme_support' ) ) {
 	add_theme_support( 'post-thumbnails' );
 	set_post_thumbnail_size( 387, 290 ); // Normal post thumbnails
-	add_image_size( 'portfolio-preview', 80, 60, true );
-	add_image_size( 'screen-shot', 816, 9999 ); // Large Portfolio Image
+	// add_image_size( 'portfolio-preview', 80, 60, true );
+	add_image_size( 'screen-shot', 812, 9999 ); // Large Portfolio Image
 }
 
 // Removes height and width attributes from "the_post_thumbnail"
@@ -352,7 +352,7 @@ add_action('save_post', 'save_portfolio_meta');
 function get_portfolio_preview($post_ID) {
 	$post_thumbnail_id = get_post_thumbnail_id($post_ID);
 	if ($post_thumbnail_id) {
-		$post_thumbnail_img = wp_get_attachment_image_src($post_thumbnail_id, 'portfolio-preview');
+		$post_thumbnail_img = wp_get_attachment_image_src($post_thumbnail_id, 'thumbnail');
 		return $post_thumbnail_img[0];
 	}
 }
@@ -393,7 +393,7 @@ function project_custom_columns($column){
             case "feat-preview":
                 if ( isset( $post_meta_data['portfolio_image'][0] ) ) {
                     $portfolio_images = unserialize( $post_meta_data['portfolio_image'][0] );
-                    echo wp_get_attachment_image($portfolio_images[0], 'portfolio-preview');
+                    echo wp_get_attachment_image($portfolio_images[0], 'thumbnail');
                 } else {
                 	$portfolio_preview_image = get_portfolio_preview($post_id);
                 	echo '<img src="' . $portfolio_preview_image . '" />';

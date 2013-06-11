@@ -8,9 +8,9 @@ get_template_part('templates/head'); ?>
 
   <div class="wrap" role="document">
     <?php qt_custom_breadcrumbs(); ?>
-    <div class="content portfolio portfolio-item row">
-      <section class="main large-12 columns" role="main">
-			<?php get_template_part( 'templates/content-portfolio-single' ); ?>
+    <div <?php post_class('content'); ?>>
+      <section class="main row resume" role="main">
+			<?php get_template_part( 'templates/content-resume' ); ?>
       </section>
       <?php /*
       <aside class="sidebar large-4 columns" role="complementary">

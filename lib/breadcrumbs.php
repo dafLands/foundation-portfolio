@@ -44,9 +44,12 @@ function qt_custom_breadcrumbs() {
     } elseif ( is_single() && !is_attachment() ) {
       if ( get_post_type() != 'post' ) {
         $post_type = get_post_type_object(get_post_type());
+        $custom_post_type = get_post_type();
         $slug = $post_type->rewrite;
-        if ($post_type = 'portfolio') {
+        if ($custom_post_type == 'portfolio') {
           echo '<a href="' . $homeLink . '/' . $slug['slug'] . '/">' . 'Work ' . '</a>';
+        } elseif ($custom_post_type == 'resume') {
+          echo '<a href="' . $homeLink . '/' . $slug['slug'] . '/">' . 'Resume' . '</a>';
         } else {
           echo '<a href="' . $homeLink . '/' . $slug['slug'] . '/">' . $post_type->labels->singular_name . '</a>';
         }
@@ -62,8 +65,11 @@ function qt_custom_breadcrumbs() {
 
     } elseif ( !is_single() && !is_page() && get_post_type() != 'post' && !is_404() ) {
       $post_type = get_post_type_object(get_post_type());
-      if ($post_type = 'portfolio') {
+      $custom_post_type = get_post_type();
+      if ($custom_post_type == 'portfolio') {
         echo $before . 'Work ' . $after;
+      } elseif ($custom_post_type == 'resume') {
+        echo $before . 'Resume' . $after;
       } else {
         echo $before . $post_type->labels->singular_name . $after;
       }
