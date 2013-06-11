@@ -118,7 +118,7 @@ function resume_meta_boxes_setup() {
 
 function resume(){
     add_meta_box(
-        'projInfo-meta',
+        'resume-meta',
         esc_html__('Resume Options', 'foundation_portfolio'),
         'show_resume',
         'Resume',
@@ -134,48 +134,6 @@ $prefix = 'resume_';
 $resume_meta_fields = array(
     // Order here affects order displayed in admin
 
-    // array(
-    //     'label'=> 'Text Input',
-    //     'desc'  => 'A description for the field.',
-    //     'id'    => $prefix.'text',
-    //     'type'  => 'text'
-    // ),
-
-    // array(
-    //     'label'=> 'Textarea',
-    //     'desc'  => 'A description for the field.',
-    //     'id'    => $prefix.'textarea',
-    //     'type'  => 'textarea'
-    // ),
-
-    // array(
-    //     'label'=> 'Checkbox Input',
-    //     'desc'  => 'A description for the field.',
-    //     'id'    => $prefix.'checkbox',
-    //     'type'  => 'checkbox'
-    // ),
-
-    // array(
-    //     'label'=> 'Select Box',
-    //     'desc'  => 'A description for the field.',
-    //     'id'    => $prefix.'select',
-    //     'type'  => 'select',
-    //     'options' => array (
-    //         'one' => array (
-    //             'label' => 'Option One',
-    //             'value' => 'one'
-    //         ),
-    //         'two' => array (
-    //             'label' => 'Option Two',
-    //             'value' => 'two'
-    //         ),
-    //         'three' => array (
-    //             'label' => 'Option Three',
-    //             'value' => 'three'
-    //         )
-    //     )
-    // ),
-
     array(
         'label'=> 'Experience',
         'desc'  => 'Work Experience Meta',
@@ -183,19 +141,6 @@ $resume_meta_fields = array(
         'type'  => 'experience'
        ),
 
-    // array(
-    //     'label'  => 'Images',
-    //     'desc'  => 'Images for Resume projects.',
-    //     'id'    => $prefix.'image',
-    //     'type'  => 'image'
-    // ),
-
-    // array(
-    //     'label'=> 'Live Site URL',
-    //     'desc'  => 'URL to direct "Visit Live Site" link to.',
-    //     'id'    => $prefix.'url',
-    //     'type'  => 'url'
-    // )
 );
 
 
@@ -211,105 +156,52 @@ global $resume_meta_fields, $post;
     echo '<table class="form-table">';
     foreach ($resume_meta_fields as $field) {
         // get value of this field if it exists for this post
-        $meta = get_post_meta($post->ID, $field['id'], true);
+        $company = $field['id'].'_company';
+        $meta_company = get_post_meta($post->ID, $company, true);
         // begin a table row with
         echo '<tr>
                 <th><label for="'.$field['id'].'">'.$field['label'].'</label></th>
                 <td>';
                 switch($field['type']) {
 
-                    // text
-                    case 'text':
-                        echo '<input type="text" name="'.$field['id'].'" id="'.$field['id'].'" value="'.$meta.'" size="30" />
-                            <br /><span class="description">'.$field['desc'].'</span>';
-                    break;
-
-                    // url
-                    case 'url':
-                        echo '<input type="url" name="'.$field['id'].'" id="'.$field['id'].'" value="'.$meta.'" size="30" />
-                            <br /><span class="description">'.$field['desc'].'</span>';
-                    break;
-
-                    // textarea
-                    case 'textarea':
-                        echo '<textarea name="'.$field['id'].'" id="'.$field['id'].'" cols="60" rows="4">'.$meta.'</textarea>
-                            <br /><span class="description">'.$field['desc'].'</span>';
-                    break;
-
-                    // checkbox
-                    case 'checkbox':
-                        echo '<input type="checkbox" name="'.$field['id'].'" id="'.$field['id'].'" ',$meta ? ' checked="checked"' : '','/>
-                            <label for="'.$field['id'].'">'.$field['desc'].'</label>';
-                    break;
-
-                    // select
-                    case 'select':
-                        echo '<select name="'.$field['id'].'" id="'.$field['id'].'">';
-                        foreach ($field['options'] as $option) {
-                            echo '<option', $meta == $option['value'] ? ' selected="selected"' : '', ' value="'.$option['value'].'">'.$option['label'].'</option>';
-                        }
-                        echo '</select><br /><span class="description">'.$field['desc'].'</span>';
-                    break;
-
-                    // image
-                    case 'image':
-
-                        echo '<a class="repeatable-add button" href="#">+</a>
-                                <ul id="'.$field['id'].'-repeatable" class="image_repeatable">';
-                        $i = 0;
-                        if ($meta) {
-                            foreach($meta as $row) {
-                                echo '<li><span class="sort hndle">|||</span>';
-                                $image = get_template_directory_uri().'/images/logo.png';
-                                echo '<span class="resume_default_image" style="display:none">'.$image.'</span>';
-                                $image = wp_get_attachment_image_src( $row, 'thumbnail' ); $image = $image[0];
-                                echo    '<input name="'.$field['id'].'['.$i.']" type="hidden" class="resume_upload_image" value="'.$row.'" />
-                                            <img src="'.$image.'" class="resume_preview_image" alt="" /><br />
-                                                <input class="resume_upload_image_button button" type="button" value="Choose Image" />
-                                                <small> <a href="#" class="resume_clear_image_button">Remove Image</a></small>
-                                                <a class="repeatable-remove button" href="#">-</a></li>';;
-                                $i++;
-                            }
-                        } else {
-                            echo '<li><span class="sort hndle">|||</span>';
-                                $image = get_template_directory_uri().'/images/logo.png';
-                                echo '<span class="resume_default_image" style="display:none">'.$image.'</span>';
-                                $image = wp_get_attachment_image_src( $meta, 'thumbnail' ); $image = $image[0];
-                                echo    '<input name="'.$field['id'].'['.$i.']" type="hidden" class="resume_upload_image initial-image" value="" />
-                                            <img src="'.$image.'" class="resume_preview_image" alt="" /><br />
-                                                <input class="resume_upload_image_button button" type="button" value="Choose Image" />
-                                                <small> <a href="#" class="resume_clear_image_button">Remove Image</a></small>
-                                        <a class="repeatable-remove button" href="#">-</a></li>';
-                        }
-                        echo '</ul>
-                            <span class="description">'.$field['desc'].'</span>';
-                    break;
-
                     case 'experience':
-
+                    	$i = 0;
+				        // $meta_company = get_post_meta( $post->ID, $field['id'], true )
 						echo '<a class="repeatable-add button" href="#">+</a>
-								<ul id="'.$company['id'].'-repeatable" class="custom_repeatable">';
-						$i = 0;
-						if ($meta) {
-							foreach($meta as $row) {
-								echo '<li><span class="sort hndle">|||</span><br />';
+								<ul id="'.$field['id'].'_repeatable" class="'.$field['id'].'_repeatable">';
+						echo '<li style="border-bottom:1px solid #ccc; padding-bottom:20px; margin-bottom: 20px;"><span style="padding: 5px; border-top:1px solid #ccc; border-left:1px solid #ccc; border-right:1px solid #ccc; border-radius: 3px" class="sort hndle">|||</span><br />';
+
+						if ($meta_company) {
+							foreach($meta_company as $row) {
 								echo '<label>Company Name</label><br />';
-								echo '<input type="text" name="'.$company.['id'].'['.$i.']" id="'.$company.['id'].'" value="'.$row.'" size="30" /><br />';
+								echo '<input type="text" name="'.$company.'['.$i.']" id="'.$company.$i.'" value="'.$row.'" size="30" /><br />';
 								echo '<label>Location</label><br />';
-								echo '<input type="text" name="'.$location['id'].'['.$i.']" id="'.$location['id'].'" value="'.$row.'" size="30" /><br />';
+								echo '<input type="text" name="'.$field['id'].'_location['.$i.']" id="'.$field['id'].'_location_'.$i.'" value="'.$row.'" size="30" /><br />';
+								echo '<label>Responsibilities and Accomplishments</label><br />';
+								echo '<textarea name="'.$field['id'].'_duties['.$i.']" id="'.$field['id'].'_duties_'.$i.'" cols="60" rows="4">'.$row.'</textarea><br />';
+								echo '<label>Start Date</label><br />';
+								echo '<input type="text" name="'.$field['id'].'_start['.$i.']" id="'.$field['id'].'_start_'.$i.'" value="'.$row.'" size="30" /><br />';
+								echo '<label>End Date</label><br />';
+								echo '<input type="text" name="'.$field['id'].'_end['.$i.']" id="'.$field['id'].'_end_'.$i.'" value="'.$row.'" size="30" /><br />';
 
 
 								echo '<a class="repeatable-remove button" href="#">-</a></li>';
 								$i++;
 							}
 						} else {
-								echo '<li><span class="sort hndle">|||</span><br />';
 								echo '<label>Company Name</label><br />';
-								echo '<input type="text" name="'.$company['id'].'['.$i.']" id="'.$company.['id'].'" value="'.$row.'" size="30" /><br />';
+								echo '<input type="text" name="'.$company.'['.$i.']" id="'.$company.$i.'" value="" size="30" /><br />';
 								echo '<label>Location</label><br />';
-								echo '<input type="text" name="'.$location['id'].'['.$i.']" id="'.$location['id'].'" value="'.$row.'" size="30" /><br />';
+								echo '<input type="text" name="'.$field['id'].'_location['.$i.']" id="'.$field['id'].'_location_'.$i.'" value="" size="30" /><br />';
+								echo '<label>Responsibilities and Accomplishments</label><br />';
+								echo '<textarea name="'.$field['id'].'_duties['.$i.']" id="'.$field['id'].'_duties_'.$i.'" cols="60" rows="4"></textarea><br />';
+								echo '<label>Start Date</label><br />';
+								echo '<input type="text" name="'.$field['id'].'_start['.$i.']" id="'.$field['id'].'_start_'.$i.'" value="" size="30" /><br />';
+								echo '<label>End Date</label><br />';
+								echo '<input type="text" name="'.$field['id'].'_end['.$i.']" id="'.$field['id'].'_end_'.$i.'" value="" size="30" /><br />';
+
 						}
-						echo '</ul>
+						echo '</li></ul>
 							<span class="description">'.$field['desc'].'</span>';
                     break;
 
@@ -320,39 +212,9 @@ global $resume_meta_fields, $post;
 }
 
 // Save the Data
-function save_resume_meta($post_id) {
-    global $resume_meta_fields;
-
-    // verify nonce
-    if ( !wp_verify_nonce( $_POST['resume_nonce'], basename( __FILE__ ) ) )
-        return $post_id;
-    // check autosave
-    if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE )
-        return $post_id;
-    // check permissions
-    if ( 'page' == $_POST['post_type'] ) {
-        if ( !current_user_can( 'edit_page', $post_id ) )
-            return $post_id;
-        } elseif ( !current_user_can( 'edit_post', $post_id ) ) {
-            return $post_id;
-    }
-
-    // loop through fields and save the data
-    foreach ( $resume_meta_fields as $field ) {
-        $old = get_post_meta( $post_id, $field['id'], true );
-        $new = $_POST[$field['id']];
-        if ( $new && $new != $old ) {
-            update_post_meta($post_id, $field['id'], $new);
-        } elseif ( '' == $new && $old ) {
-            delete_post_meta( $post_id, $field['id'], $old );
-        }
-    } // end foreach
-}
-add_action('save_post', 'save_resume_meta');
-
-// Save the Data
 function save_resume_experience_meta($post_id) {
     global $resume_meta_fields;
+    $i = 0;
 
     // verify nonce
     if ( !wp_verify_nonce( $_POST['resume_nonce'], basename( __FILE__ ) ) )
@@ -369,22 +231,22 @@ function save_resume_experience_meta($post_id) {
     }
 
     // loop through fields and save the data
-    foreach ( $resume_meta_fields as $field ) {
-        $old_company = get_post_meta( $post_id, $company.['id'], true );
-        $old_location = get_post_meta( $post_id, $location.['id'], true)
-        $new_company = $_POST[$company.['id']];
-        $new_location = $_POST[$location.['id']];
+    foreach ( $resume_meta_fields as $company ) {
+        // $old = get_post_meta( $post_id, $field['id'], true );
+        // $new = $_POST[$field['id']];
+        $old_company = get_post_meta( $post_id, $company, true );
+        $new_company = $_POST[$company];
 
         if ( $new_company && $new_company != $old_company ) {
-            update_post_meta($post_id, $company.['id'], $new_company);
-            update_post_meta($post_id, $location.['id'], $new_location);
+            update_post_meta($post_id, $company, $new_company);
 
         } elseif ( '' == $new_company && $old_company ) {
-            delete_post_meta( $post_id, $company.['id'], $old_company );
-            delete_post_meta( $post_id, $location.['id'], $old_location );
+            delete_post_meta( $post_id, $company, $old_company);
 
         }
+        $i++;
     } // end foreach
+
 }
 add_action('save_post', 'save_resume_experience_meta');
 
@@ -395,5 +257,5 @@ add_action( 'admin_print_scripts-post.php', 'resume_admin_script', 11 );
 function resume_admin_script() {
     global $post_type;
     if( 'resume' == $post_type )
-    wp_enqueue_script( 'resume-admin-script', get_stylesheet_directory_uri() . '/javascripts/jquery.resume.js' );
+	    wp_enqueue_script( 'resume-admin-script', get_stylesheet_directory_uri() . '/javascripts/jquery.resume.js' );
 }
