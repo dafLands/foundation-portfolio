@@ -313,6 +313,7 @@ footer.content-info {
 		max-width: 418px;
 		&:last-child {
 			float: none;
+			clear: both;
 		}
 	}
 	h1.hentry-title {
@@ -506,7 +507,7 @@ footer.content-info {
 				max-width: 100%;
 			}
 		}
-		.experience, .education {
+		.experience, .columns.education {
 			float: left;
 			clear: left;
 		}
@@ -579,7 +580,7 @@ footer.content-info {
 				left: 780px;
 			}
 			&.skills {
-				top: 630px;
+				top: 615px;
 				float: left;
 			}
 		}
