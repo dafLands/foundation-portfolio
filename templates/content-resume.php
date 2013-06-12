@@ -2,7 +2,39 @@
 <?php while (have_posts()) : the_post(); ?>
   <div class="large-4 columns">
   	<div class="intro"><?php the_content(); ?></div>
-  	<div class="skills"></div>
+  	<div class="skills">
+  		<?php
+  			$skills_values = simple_fields_fieldgroup('skills');
+  			foreach($skills_values as $values) {
+  				echo '<h3>' .$values['skill']. '</h3>';
+  				echo '<p>';
+  				$selection = $values['proficiency'];
+  					switch($selection) {
+  						case 'dropdown_num_2':
+  							echo '1';
+  						break;
+
+  						case 'dropdown_num_3':
+  							echo '2';
+  						break;
+
+  						case 'dropdown_num_4':
+  							echo '3';
+  						break;
+
+  						case 'dropdown_num_5':
+  							echo '4';
+  						break;
+
+  						case 'dropdown_num_6':
+  							echo '5';
+  						break;
+
+  					}
+  				echo '</p>';
+  			}
+  		 ?>
+  	</div>
   </div>
   <div class="large-8 columns">
   	<div class="experience">
