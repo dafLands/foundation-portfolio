@@ -7,9 +7,8 @@ get_template_part('templates/head'); ?>
   <?php get_template_part( 'templates/header' ); ?>
 
   <div class="wrap" role="document">
-    <?php qt_custom_breadcrumbs(); ?>
     <div <?php post_class('content'); ?>>
-      <section class="main row resume" role="main">
+      <section class="main row" role="main">
 			<?php get_template_part( 'templates/content-resume' ); ?>
       </section>
       <?php /*

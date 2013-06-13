@@ -309,6 +309,9 @@ footer.content-info {
 //--------------------------------
 
 .resume {
+	[role="main"] {
+		position: relative;
+	}
 	.columns {
 		max-width: 418px;
 		&:last-child {
@@ -417,6 +420,8 @@ footer.content-info {
 			@include rem('font-size', 16px);
 			display: inline-block;
 			margin: 0;
+			line-height: 1;
+
 		}
 		> span {
 			float:right;
@@ -529,7 +534,7 @@ footer.content-info {
 		}
 	}
 }
-@media only screen and (min-width: emCalc(1035px)) {
+@media only screen and (min-width: emCalc(1024px)) {
 	.resume {
 		h4 {
 			margin-bottom: 10px;
@@ -553,7 +558,7 @@ footer.content-info {
 		.skill-item {
 			max-width: 300px;
 			height: 30px;
-			line-height: 31px;
+			line-height: 30px;
 			@include rem('padding', 0 0 0 8px);
 			h3 {
 				@include rem('font-size', 18px);
@@ -567,22 +572,22 @@ footer.content-info {
 		}
 	}
 }
+@media only screen and (min-width: emCalc(1035px)) {
+	.resume {
+
+	}
+}
 @media only screen and (min-width: emCalc(1200px)) {
 	.resume {
-		position: relative;
-		min-height: 1300px;
+		@include rem('max-width', 1700px);
+		margin: 0 auto;
+		@include clearfix();
+		[role="main"] {
+			max-width: 1185px;
+			float: left;
+		}
 		.large-8 {
 			max-width: 780px;
-		}
-		.large-4 {
-			&.intro {
-				position: absolute;
-				left: 780px;
-			}
-			&.skills {
-				top: 615px;
-				float: left;
-			}
 		}
 	}
 }
