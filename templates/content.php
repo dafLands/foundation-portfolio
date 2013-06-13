@@ -7,9 +7,10 @@
 <?php endif; ?>
 
 <?php while (have_posts()) : the_post(); ?>
-  <article <?php post_class(); ?>>
+  <article <?php post_class('foundation-content'); ?>>
     <header>
       <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+      <hr>
       <?php get_template_part('templates/entry-meta'); ?>
     </header>
     <div class="entry-summary">

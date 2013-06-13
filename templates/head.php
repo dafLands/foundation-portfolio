@@ -24,4 +24,6 @@
 	  })();
 	</script>
   <link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo home_url(); ?>/feed/">
+  <!-- Custom WordPress Theme designed and developed by Jason Garner.
+       Built with the Foundation 4 front-end framework for rapid prototyping. -->
 </head>

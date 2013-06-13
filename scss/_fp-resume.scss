@@ -1,0 +1,290 @@
+// Resume Styles
+// -------------------------------------------------------------
+
+// Resume
+//--------------------------------
+
+.resume {
+	[role="main"] {
+		position: relative;
+	}
+	.columns {
+		max-width: 418px;
+		&:last-child {
+			clear: both;
+			float: none;
+		}
+	}
+	h1.hentry-title {
+		height: 0;
+		margin: 0;
+		text-indent: -999em;
+	}
+	h2 {
+		@include rem('font-size', 28px);
+		@include rem('padding-bottom', 15px);
+		+ hr {
+			@include rem('margin', -27px 0 28px);
+		}
+		@include rem('margin', 10px 0 15px);
+	}
+	h2, h3 {
+		color: $body-font-color;
+	}
+	h3 {
+		@include rem('font-size', 22px);
+		margin-bottom: 10px;
+	}
+	h4 {
+		@include rem('font-size', 16px);
+		color: $primary-color;
+		font-weight: 200;
+		margin-bottom: 2px;
+		span {
+			color: lighten($primary-color, 10);
+			font-size: 93%;
+		}
+	}
+	p.accomplishments, .intro p {
+		font-size: 90%;
+	}
+	p.date-range {
+		margin-bottom: 12px;
+	}
+	p.date-range, p.grad-info {
+		color: lighten($body-font-color, 15);
+		font-size: 80%;
+		font-style: italic;
+	}
+	.intro {
+		img {
+			vertical-align: middle;
+		}
+		.intro-content {
+			@include rem('padding', 15px);
+			background-color: $primary-color;
+			p {
+				margin-bottom: 0;
+				span {
+					color: lighten($primary-color, 20);
+					display: block;
+					font-style: italic;
+					line-height: 1;
+				}
+				&:first-child {
+					margin-bottom: 25px;
+				}
+				&:nth-child(2) {
+					margin-bottom: 10px;
+				}
+			}
+			p, a {
+				color: $body-bg;
+			}
+		}
+
+	}
+	.intro, .skills {
+		margin-bottom: 30px;
+	}
+	.experience-item {
+		margin-bottom: 25px;
+	}
+	.education-item {
+		h3 {
+			@include rem('font-size', 18px);
+			color: $primary-color;
+			margin-bottom: 5px;
+		}
+		p {
+			margin-bottom: 25px;
+		}
+	}
+	.skill-item {
+		@include rem('padding', 0 0 0 5px);
+		@include clearfix();
+		background-color: $primary-color;
+		color: $body-bg;
+		height: 24px;
+		line-height: 24px;
+		margin-bottom: 2px;
+		max-width: 280px;
+		h3 {
+			@include rem('font-size', 16px);
+			@include rem('padding-top', 5px);
+			color: $body-bg;
+			display: inline-block;
+			font-weight: 200;
+			line-height: 1;
+			margin: 0;
+			text-transform: uppercase;
+		}
+		> span {
+			@include clearfix();
+			float:right;
+			span {
+				display: inline-block;
+				height: 24px;
+				text-indent: -999em;
+				width: 24px;
+			}
+			&.quatro {
+				span {
+					background-color: lighten($primary-color, 5);
+				}
+			}
+			&.tres {
+				span {
+					background-color: lighten($primary-color, 5);
+					&:last-child {
+						background-color: lighten($primary-color, 10);
+					}
+				}
+			}
+			&.dos {
+				span {
+					background-color: lighten($primary-color, 10);
+					&:first-child {
+						background-color: lighten($primary-color, 5);
+					}
+					&:last-child {
+						background-color: lighten($primary-color, 15);
+					}
+				}
+			}
+			&.uno {
+				span {
+					background-color: lighten($primary-color, 10);
+					&:first-child {
+						background-color: lighten($primary-color, 5);
+					}
+					&:nth-child(3) {
+						background-color: lighten($primary-color, 15);
+					}
+					&:last-child {
+						background-color: lighten($primary-color, 20);
+					}
+				}
+			}
+		}
+	}
+}
+
+@media #{$small} {
+	.resume {
+		h2 {
+			@include rem('font-size', 42px);
+			+ hr {
+				clear: none;
+			}
+		}
+		h3 {
+			@include rem('font-size', 30px);
+			margin-bottom: 0;
+		}
+		h4 {
+			@include rem('font-size', 24px);
+			margin-top: 3px;
+		}
+		p.accomplishments, .intro p {
+			font-size: 100%;
+		}
+		p.date-range {
+			margin-top: 10px;
+		}
+		p.date-range, p.grad-info {
+			font-size: 98%;
+		}
+		.columns {
+			max-width: 100%;
+		}
+		.intro, .skills {
+			clear: right;
+			float: right;
+			> .intro-content, > h2 + hr {
+				max-width: 300px;
+			}
+			img {
+				max-width: 100%;
+			}
+		}
+		.experience, .columns.education {
+			clear: left;
+			float: left;
+		}
+		.experience-item, .education-item {
+			position: relative;
+		}
+		.education-item h3 {
+			@include rem('font-size', 28px);
+		}
+	}
+}
+@media only screen and (min-width: emCalc(768px)) and (max-width: emCalc(806px)) {
+	.resume {
+		p.accomplishments, .intro p {
+			font-size: 96%;
+		}
+		p.date-range, p.grad-info {
+			font-size: 85%;
+		}
+	}
+}
+@media only screen and (min-width: emCalc(1024px)) {
+	.resume {
+		h4 {
+			margin-bottom: 10px;
+		}
+		.intro {
+			img {max-width: 300px;}
+		}
+		p.date-range, p.grad-info {
+			position: absolute;
+			right: 0;
+		}
+		p.date-range {
+			top: 1px;
+		}
+		p.grad-info {
+			top: 8px;
+		}
+		.experience-item, .education-item {
+			margin-bottom: 30px;
+		}
+		.skill-item {
+			@include rem('padding', 0 0 0 8px);
+			height: 30px;
+			line-height: 30px;
+			max-width: 300px;
+			h3 {
+				@include rem('font-size', 18px);
+				@include rem('padding-top', 6px);
+			}
+			> span {
+				span {
+					height: 30px;
+					width: 30px;
+				}
+			}
+		}
+	}
+}
+@media only screen and (min-width: emCalc(1035px)) {
+	.resume {
+
+	}
+}
+@media only screen and (min-width: emCalc(1200px)) {
+	.resume {
+		@include rem('max-width', 1700px);
+		@include clearfix();
+		margin: 0 auto;
+		[role="main"] {
+			float: left;
+			max-width: 1185px;
+		}
+		.large-8 {
+			max-width: 780px;
+		}
+	}
+}

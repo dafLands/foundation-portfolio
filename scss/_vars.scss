@@ -55,6 +55,15 @@ $btn-color: darken(#bbb, 10);
 $jg_phone: emCalc(768px);
 $phone-landscape: $landscape + " and (max-width:"#{$jg_phone}")";
 
+// Microformats
+$microformat-margin: 0;
+$microformat-border-width: 0;
+$microformat-border-style: none;
+$microformat-border-color: transparent;
+$microformat-padding: 0;
+$microformat-fullname-font-weight: normal;
+$microformat-fullname-font-size: inherit;
+
 // Bring Yo Own Mixins
 //-----------------------------------------------------
 @mixin font-size($sizeValue: 1.6){
