@@ -20,5 +20,13 @@
 jQuery(document).foundation();
 </script>
 <?php if (!is_singular('portfolio')) : ?>
-<script>jQuery(window).load(function($){var $bodyH=$("body").height(),$windowH=window.innerHeight;if($bodyH<$windowH)$("footer.content-info").addClass("fixed-footer");$("[role='document']").css('padding-bottom', '80px')});</script>
+<script>
+	jQuery(window).load(function() {
+		var $bH = jQuery('body').height(), $wH = window.innerHeight;
+		if ($bH < $wH) {
+			jQuery('footer.content-info').addClass('fixed-footer');
+			jQuery('div.main').css('padding-bottom', '80px');
+		};
+	})
+</script>
 <?php endif; ?>

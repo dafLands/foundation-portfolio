@@ -8,9 +8,9 @@
 
 	<?php /* Start the Loop */ ?>
 	<?php while ( have_posts() ) : the_post(); ?>
-		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+		<article id="post-<?php the_ID(); ?>" <?php post_class('foundation-content'); ?>>
 			<header class="entry-header">
-				<h1 class="entry-title"><?php the_title(); ?></h1>
+				<?php the_title('<h1 class="entry-title">', '</h1><hr />'); ?>
 
 				<div class="entry-meta">
 					<?php foundation_portfolio_posted_on(); ?>

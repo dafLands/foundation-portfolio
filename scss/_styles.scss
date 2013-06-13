@@ -99,7 +99,7 @@ h6 {
 	h1 {
 		color: $header-font-color;
 		line-height: 120%;
-		&.page-title {
+		&.page-title, &.entry-title {
 			@include rem('margin', 10px 0 15px);
 			@include rem('font-size', 30px);
 			border-bottom: 2px solid #222;
@@ -146,13 +146,14 @@ h3 {
 	}
 	[role=document] {
 		h1 {
-			&.page-title {
+			&.page-title, &.entry-title {
 				@include rem('font-size', 57px);
 			}
 		}
 		h2 {
+			@include rem('padding-bottom', 14px);
 			+ hr {
-				margin-top: -34px;
+				margin-top: -35px;
 
 			}
 		}
@@ -304,17 +305,25 @@ footer.content-info {
 	}
 }
 
-time, .vcard {
+time, .vcard, .entry-meta {
 	@include rem('font-size', 16px);
 	color: lighten($body-font-color, 15);
+}
+footer.entry-meta {
+	@include rem('margin-top', 40px);
+	padding-top: 10px;
+	border-top: 2px solid $body-font-color;
+
 }
 
 .foundation-content {
 	@include rem('margin-bottom', 50px);
 	header {
-		@include rem('margin-bottom', 20px);
+		@include rem('margin-bottom', 15px);
 	}
-	.entry-title {
+	h2.entry-title {
+		@include rem('font-size', 30px);
+		line-height: 110%;
 		@include transition-property(all);
 		@include transition-duration(300ms);
 		@include transition-timing-function(ease-in);
@@ -337,6 +346,7 @@ time, .vcard {
 		}
 		+ hr {
 			display: block;
+			@include rem('margin', -27px 0 15px);
 		}
 		& + hr {
 			@include transition-property(all);
@@ -356,6 +366,19 @@ time, .vcard {
 			}
 			&:first-child:after, &:last-child:after {
 				content: '';
+			}
+		}
+	}
+}
+@media #{$small} {
+	.foundation-content {
+		header {
+			@include rem('margin-bottom', 40px);
+		}
+		h2.entry-title {
+			@include rem('font-size', 45px);
+			+ hr {
+				@include rem('margin', -37px 0 15px);
 			}
 		}
 	}
