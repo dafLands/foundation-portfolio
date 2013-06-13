@@ -234,9 +234,6 @@ header.banner > .fixed {
 		text-align: center;
 		width: 100%;
 		opacity: .35;
-		@include transition-property(opacity);
-		@include transition-duration(200ms);
-		@include transition-timing-function(ease-in);
 	}
 	+ .wrap {
 		border-top: 1px solid #fff;

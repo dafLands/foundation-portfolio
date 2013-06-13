@@ -14,23 +14,24 @@
        </section>
     </div> -->
     <?php endif; ?>
-    <?php qt_custom_breadcrumbs(); ?>
-    <div class="content row">
-      <section class="main large-8 columns" role="main">
+
         <?php
-        if ( is_page( array( 67, 'contact' ) ) ) {
+        if ( is_page( array( 67, 'contact' ) ) )
           get_template_part( 'templates/content-contact' );
-        } elseif ( is_page() ) {
+        elseif ( is_page() )
           get_template_part( 'templates/content-page' );
-        } elseif ( is_single() ) {
+        elseif ( is_single() )
           get_template_part( 'templates/content-single' );
-        } else {
-          get_template_part( 'templates/content' );
-        } ?>
-      </section><!-- /.main -->
-      <aside class="sidebar large-4 columns" role="complementary">
-      </aside><!-- /.sidebar -->
-    </div><!-- /.content -->
+        else {
+          qt_custom_breadcrumbs(); ?>
+          <div class="content row">
+            <section class="main large-8 columns" role="main">
+              <?php get_template_part( 'templates/content' ); ?>
+            </section><!-- /.main -->
+            <aside class="sidebar large-4 columns" role="complementary">
+            </aside><!-- /.sidebar -->
+          </div><!-- /.content -->
+        <?php } ?>
   </div><!-- /.wrap -->
 
   <?php get_template_part('templates/footer'); ?>

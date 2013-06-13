@@ -29,10 +29,8 @@ function foundation_portfolio_widget_init() {
     'id'            => 'sidebar_contact_form',
     'description'   => 'For use with contact form widget',
           'class'         => 'form',
-    'before_widget' => '<div class="content row">
-        <section class="large-8 small-12 columns">',
-    'after_widget'  => '      </section>
-      </div>',
+    'before_widget' => '<div class="contact-form">',
+    'after_widget'  => '</div>',
     'before_title'  => '<h2 class="form-title" style="display:none">',
     'after_title'   => '</h2>'
   ));

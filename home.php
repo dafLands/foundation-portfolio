@@ -18,7 +18,7 @@ get_template_part('templates/head'); ?>
   <div class="wrap">
     <div class="content row">
       <section class="main large-8 columns" role="main">
-        <?php get_template_part( 'templates/content-page' );?>
+        <?php get_template_part( 'templates/content-home' );?>
       </section><!-- /.main -->
       <aside class="sidebar large-4 columns" role="complementary">
       </aside><!-- /.sidebar -->
