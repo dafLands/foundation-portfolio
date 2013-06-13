@@ -17,5 +17,8 @@
 <?php endif ?>
 <?php wp_footer(); ?>
 <script>
-jQuery(document).foundation();jQuery(document).ready(function($){var $bodyH=$("body").height(),$windowH=window.innerHeight;if($bodyH<$windowH)$("footer.content-info").addClass("fixed-footer");});
+jQuery(document).foundation();
 </script>
+<?php if (!is_singular('portfolio')) : ?>
+<script>jQuery(window).load(function($){var $bodyH=$("body").height(),$windowH=window.innerHeight;if($bodyH<$windowH)$("footer.content-info").addClass("fixed-footer");$("[role='document']").css('padding-bottom', '80px')});</script>
+<?php endif; ?>

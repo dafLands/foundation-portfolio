@@ -310,11 +310,11 @@ time, .vcard {
 }
 
 .foundation-content {
+	@include rem('margin-bottom', 50px);
 	header {
 		@include rem('margin-bottom', 20px);
 	}
 	.entry-title {
-		display: block;
 		@include transition-property(all);
 		@include transition-duration(300ms);
 		@include transition-timing-function(ease-in);
@@ -335,6 +335,9 @@ time, .vcard {
 				border-color: $primary-color;
 			}
 		}
+		+ hr {
+			display: block;
+		}
 		& + hr {
 			@include transition-property(all);
 			@include transition-duration(300ms);
@@ -343,9 +346,17 @@ time, .vcard {
 	}
 	ul.entry-tags {
 		list-style: none;
+		margin-left: 0;
 		li {
+			color: $primary-color;
 			display: inline-block;
-			margin-right: 5px;
+			margin-right: 6px;
+			&:after {
+				content: ',';
+			}
+			&:first-child:after, &:last-child:after {
+				content: '';
+			}
 		}
 	}
 }

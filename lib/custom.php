@@ -90,3 +90,19 @@ function paginate() {
 function makeRelative($url) {
   echo parse_url($url, PHP_URL_PATH);
 }
+
+// Navigation menu fix for Category Pages
+function getMainMenu($menulocation){
+  $locations = get_nav_menu_locations();
+  $menuItems = wp_get_nav_menu_items( $locations[ $menulocation ] );
+    if(empty($menuItems))
+      return false;
+    else{
+      wp_nav_menu( array(
+        'theme_location' => $menulocation,
+        'container' => 'false',
+        'menu_class' => 'right'
+        ) );
+      return true;
+    }
+}

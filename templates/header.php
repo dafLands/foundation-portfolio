@@ -13,16 +13,13 @@
             <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
           </ul>
           <section class="top-bar-section">
-             <?php
-              if (has_nav_menu('primary_navigation')) :
-                wp_nav_menu( array(
-                  'theme_location' => 'primary_navigation',
-                  'container' => 'false',
-                  'menu_class' => 'right',
-                  ''
-                  ) );
-              endif;
-            ?>
+          <?php if(!getMainMenu('primary_navigation')){
+            $backup = $wp_query;
+            $wp_query = NULL;
+            $wp_query = new WP_Query(array('post_type' => 'post'));
+            getMainMenu('primary_navigation');
+            $wp_query = $backup;
+          } ?>
           </section>
       </nav>
     </div>
