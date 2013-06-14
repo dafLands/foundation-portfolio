@@ -288,6 +288,9 @@ input[type="button"], input.button {
 
 [role=document] {
 	// background-color: $body-bg
+	header + .entry-content, .page-title + hr + p {
+		@include rem('margin-top', 40px);
+	}
 }
 [role=main] article h1 {
 	margin-top: 1em;

@@ -523,7 +523,7 @@
 			"file": "scss/_styles.scss",
 			"settings":
 			{
-				"buffer_size": 7877,
+				"buffer_size": 7965,
 				"line_ending": "Windows"
 			}
 		},
@@ -619,7 +619,7 @@
 			"file": "scss/_vars.scss",
 			"settings":
 			{
-				"buffer_size": 3765,
+				"buffer_size": 3787,
 				"line_ending": "Windows"
 			}
 		}
@@ -843,7 +843,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"C:\\xampp\\htdocs\\jasonmgarner\\wp-content\\themes\\foundation-portfolio\\scss",
@@ -1022,15 +1022,15 @@
 					"file": "scss/_styles.scss",
 					"settings":
 					{
-						"buffer_size": 7877,
+						"buffer_size": 7965,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4225,
-								4225
+								5354,
+								5354
 							]
 						],
 						"settings":
@@ -1042,7 +1042,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3876.0,
+						"translation.y": 5039.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1412,15 +1412,15 @@
 					"file": "scss/_vars.scss",
 					"settings":
 					{
-						"buffer_size": 3765,
+						"buffer_size": 3787,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3341,
-								3341
+								123,
+								123
 							]
 						],
 						"settings":
@@ -1432,7 +1432,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1786.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
