@@ -4,20 +4,88 @@
 		"selected_items":
 		[
 			[
+				"butt",
+				"button-group"
+			],
+			[
+				"clear",
+				"clearfix"
+			],
+			[
+				"add_theme",
+				"add_theme_caps"
+			],
+			[
+				"ex",
+				"experience-item"
+			],
+			[
+				"educt",
+				"education-item"
+			],
+			[
+				"int",
+				"intro-content"
+			],
+			[
+				"contac",
+				"contact_values"
+			],
+			[
+				"bod",
+				"body-bg"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"bo",
+				"body-bg"
+			],
+			[
+				"body",
+				"body-font-color"
+			],
+			[
+				"ski",
+				"skills_values"
+			],
+			[
+				"edu",
+				"education_values"
+			],
+			[
+				"post",
+				"post_type"
+			],
+			[
+				"pro",
+				"project-tags"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"an",
+				"antialiased"
+			],
+			[
 				"content",
 				"content-info"
 			],
 			[
-				"bo",
-				"bodyH"
-			],
-			[
 				"win",
 				"windowH"
-			],
-			[
-				"bac",
-				"background-repeat"
 			],
 			[
 				"back",
@@ -76,10 +144,6 @@
 				"line-height"
 			],
 			[
-				"pro",
-				"project-tag"
-			],
-			[
 				"he",
 				"header-font-weight"
 			],
@@ -106,10 +170,6 @@
 			[
 				"po",
 				"portfolioBorder"
-			],
-			[
-				"text-",
-				"text-transform"
 			],
 			[
 				"head",
@@ -214,10 +274,6 @@
 			[
 				"bor",
 				"border"
-			],
-			[
-				"body",
-				"body-bg"
 			],
 			[
 				"scree",
@@ -344,10 +400,6 @@
 				"position"
 			],
 			[
-				"padding",
-				"padding-left"
-			],
-			[
 				"backg",
 				"background-color"
 			],
@@ -462,58 +514,6 @@
 			[
 				"nth-ch",
 				":nth-child(|)"
-			],
-			[
-				"inv",
-				"investedAmt"
-			],
-			[
-				"trans",
-				"transAmt"
-			],
-			[
-				"av",
-				"availCat"
-			],
-			[
-				"sel",
-				"selectedCat"
-			],
-			[
-				"mous",
-				"mouseenter"
-			],
-			[
-				"distM",
-				"distAmtError"
-			],
-			[
-				"InputF",
-				"InputFederalAmtbyPercent"
-			],
-			[
-				"amtV",
-				"amtValid"
-			],
-			[
-				"In",
-				"InputFedPercent"
-			],
-			[
-				"Wid",
-				"WithdrawPart"
-			],
-			[
-				"amtVal",
-				"amtValidation"
-			],
-			[
-				"FederalB",
-				"FederalbyPercent"
-			],
-			[
-				"Fed",
-				"FederalbyDollar"
 			]
 		]
 	},
@@ -523,47 +523,15 @@
 			"file": "scss/_styles.scss",
 			"settings":
 			{
-				"buffer_size": 6910,
+				"buffer_size": 7877,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "scss/_fp-portfoliogrid.scss",
+			"file": "templates/header.php",
 			"settings":
 			{
-				"buffer_size": 14837,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "scss/_fp-header.scss",
-			"settings":
-			{
-				"buffer_size": 5143,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "archive-portfolio.php",
-			"settings":
-			{
-				"buffer_size": 2434,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "templates/content-portfolio-grid.php",
-			"settings":
-			{
-				"buffer_size": 2057,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "templates/content-portfolio-single.php",
-			"settings":
-			{
-				"buffer_size": 3742,
+				"buffer_size": 1039,
 				"line_ending": "Windows"
 			}
 		},
@@ -571,8 +539,40 @@
 			"file": "templates/content-single.php",
 			"settings":
 			{
-				"buffer_size": 2608,
+				"buffer_size": 2771,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/_fp-header.scss",
+			"settings":
+			{
+				"buffer_size": 7564,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/content-page.php",
+			"settings":
+			{
+				"buffer_size": 562,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/content-home.php",
+			"settings":
+			{
+				"buffer_size": 337,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/content-contact.php",
+			"settings":
+			{
+				"buffer_size": 634,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -584,18 +584,34 @@
 			}
 		},
 		{
-			"file": "stylesheets/foundation.css",
+			"file": "lib/menus-and-sidebars.php",
 			"settings":
 			{
-				"buffer_size": 173740,
+				"buffer_size": 1312,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "templates/footer.php",
+			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 1100,
+				"buffer_size": 1511,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/custom.php",
+			"settings":
+			{
+				"buffer_size": 3680,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "javascripts/jquery.resume.js",
+			"settings":
+			{
+				"buffer_size": 1081,
 				"line_ending": "Windows"
 			}
 		},
@@ -603,15 +619,7 @@
 			"file": "scss/_vars.scss",
 			"settings":
 			{
-				"buffer_size": 3326,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "templates/header.php",
-			"settings":
-			{
-				"buffer_size": 1093,
+				"buffer_size": 3765,
 				"line_ending": "Windows"
 			}
 		}
@@ -700,28 +708,44 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/templates/footer.php",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/scss/_fp-resume.scss",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/templates/content.php",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/scss/_fp-portfoliogrid.scss",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/scss/foundation/components/_type.scss",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/lib/functions-resume.php",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/lib/experience-meta-box.php",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/single-resume.php",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/templates/content-resume.php",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/templates/head.php",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/scss/foundation.scss",
+		"/C/Users/Jason/AppData/Local/Temp/fz3temp-1/functions.php",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/lib/functions-custom-post-type.php",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/lib/portfolio-functions.php",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/lib/breadcrumbs.php",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/single-portfolio.php",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/templates/content-single-resume.php",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/templates/content-single.php",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/scss/_fp-header.scss",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/templates/header.php",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/archive-portfolio.php",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/templates/content-portfolio-grid.php",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/templates/content-portfolio-single.php",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/home.php",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/functions.php",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/config.rb",
+		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/stylesheets/foundation.css",
 		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/templates/content-page.php",
 		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/scss/_wpicon.scss",
-		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/templates/header.php",
-		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/scss/foundation.scss",
 		"/C/Program Files (x86)/Git/doc/git/html/git-config.html",
-		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/config.rb",
 		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/templates/content-contact.php",
-		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/functions.php",
-		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/single-portfolio.php",
-		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/lib/breadcrumbs.php",
 		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/lib/custom.php",
-		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/lib/portfolio-functions.php",
 		"/C/Program Files (x86)/Git/doc/git/html/git.html",
 		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/index.php",
 		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/javascripts/jquery.custom.js",
-		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/templates/footer.php",
 		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/lib/styles-and-scripts.php",
-		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/templates/head.php",
 		"/C/Users/Jason/AppData/Local/Temp/fz3temp-1/.htaccess",
 		"/C/Users/Jason/AppData/Local/Temp/fz3temp-1/jquery.custom.js",
-		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/templates/content-portfolio-grid.php",
-		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/scss/foundation/components/_type.scss",
 		"/C/xampp/htdocs/jasonmgarner/wp-content/themes/foundation-portfolio/sftp-config.json",
 		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/templates/head.php",
 		"/D/Dropbox/jasonmgarner.com/foundation-portfolio/templates/header.php",
@@ -811,23 +835,7 @@
 		"/D/Documents/_+DesignAndDevelopment/jasonmgarner/style-old.css",
 		"/D/Documents/_+DesignAndDevelopment/jasonmgarner/style.css",
 		"/D/Documents/_+DesignAndDevelopment/jasonmgarner/less/main.less",
-		"/D/Documents/_+DesignAndDevelopment/jasonmgarner/css/styles.less",
-		"/D/Documents/_+DesignAndDevelopment/jasonmgarner/css/foundation.less",
-		"/D/Documents/_+DesignAndDevelopment/jasonmgarner/index.php",
-		"/C/Users/Jason/Downloads/foundation-4.0.5.custom/css/foundation.css",
-		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/App_Code/Blog/WebUtils.cs",
-		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/App_Code/Blog/Blogs.cs",
-		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/blog/widgets/Search/widget.ascx",
-		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/App_Code/Blog/Tags.cs",
-		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/blog/admin/Widgets/Controls.aspx",
-		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/tft-js/core/blog/blog.js",
-		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/blog/search.aspx",
-		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/blog/themes/Standard/WidgetContainer.ascx",
-		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/blog/widgets/Search/widget.ascx.cs",
-		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/thank-you.aspx",
-		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/request-info.aspx",
-		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/tft-js/core/jquery.buildings.js",
-		"/C/SVNwork/GraysPortableBuildings_BuildingsAndMore/trunk/dev/screen-rooms.aspx"
+		"/D/Documents/_+DesignAndDevelopment/jasonmgarner/css/styles.less"
 	],
 	"find":
 	{
@@ -838,6 +846,8 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"C:\\xampp\\htdocs\\jasonmgarner\\wp-content\\themes\\foundation-portfolio\\scss",
+			"C:\\xampp\\htdocs\\jasonmgarner\\wp-content\\themes\\foundation-portfolio\\scss\\foundation",
 			"D:\\Dropbox\\jasonmgarner.com\\foundation-portfolio",
 			"D:\\Dropbox\\jasonmgarner.com\\foundation-portfolio\\scss\\foundation",
 			"C:\\SVNwork\\GraysPortableBuildings_BuildingsAndMore\\trunk\\dev",
@@ -859,6 +869,120 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"columns",
+			".content-columns",
+			"$",
+			".page-title",
+			"tags",
+			"vcard",
+			".vcard",
+			"transition",
+			"}\n",
+			"img",
+			"3",
+			"h4",
+			"<h2>",
+			"value=\"''\"",
+			"value=\"'.$row.'\"",
+			"['.$i.']",
+			"$field['id'].'_company",
+			"$old",
+			"$new",
+			"projInfo",
+			"10px",
+			".image_repeatable",
+			"$new_company",
+			"$old_company",
+			"_company",
+			"$company",
+			"company",
+			"$end.",
+			"$field.",
+			"$start",
+			"$duties",
+			"$location",
+			"/>';\n",
+			"experience",
+			"company",
+			"$field",
+			"company",
+			"$field",
+			"$field.'_company'",
+			"$new",
+			"$old",
+			"_location",
+			"_company",
+			"portfolio",
+			".content.row",
+			"introduction",
+			"article",
+			"resume_slug",
+			"$post_type",
+			"portfolio",
+			"work",
+			"---------------------------------------------------------",
+			"portfolio",
+			"query_post_type",
+			"custom_taxonomy_flush_rewrite",
+			"query_post_type",
+			"custom_taxonomy_flush_rewrite",
+			"CUSTOM_TAXONOMY",
+			"Resume",
+			"resume",
+			"CUSTOM_POST_TYPE",
+			"custom_post_type",
+			"CUSTOM_POST_TYPE",
+			"custom_post_type",
+			"CUSTOM_POST_TYPE",
+			"custom_post_type",
+			"CUSTOM_POST_TYPE",
+			"custom_post_type",
+			"CUSTOM_POST_TYPE",
+			"CUSTOM",
+			"18px",
+			"portfolio",
+			"Portfolio",
+			"foundation-portfolio",
+			"save_portfolio_meta",
+			"portfolio_meta_box",
+			"CUSTOM-TAXONOMY",
+			"custom_post_type-slug",
+			"CUSTOM-POST-TYPE",
+			"portfolio_meta_boxes_setup",
+			"Project Type",
+			"Project Types",
+			"portfolio",
+			"custom-post-type",
+			"CUSTOM-LABEL",
+			"Portfolio",
+			"portfolio",
+			"Portfolio",
+			"portfolio",
+			"Portfolio",
+			"portfolio",
+			"Portfolio",
+			"portfolio",
+			"Portfolio",
+			"portfolio",
+			"Portfolio",
+			"portfolio",
+			"Portfolio",
+			"portfolio",
+			"Portfolio",
+			"portfolio",
+			"Portfolio",
+			"register_portfolio_post_type",
+			"portfolio-preview",
+			"800",
+			".large-6",
+			"max-width",
+			"project-tags",
+			"436",
+			"output_style",
+			"Work",
+			".opacity",
+			"transition",
+			"9px",
 			"crumbs",
 			".wpicon-wordpress-logo-notext-cmyk",
 			"body-bg",
@@ -872,121 +996,7 @@
 			"SVG",
 			"svg",
 			"#000",
-			"$body-bg",
-			"bg-color",
-			"primary",
-			"64px",
-			"3px",
-			"5",
-			"btn",
-			"842",
-			"845",
-			"max-width",
-			"h2.project-title",
-			".project-tags",
-			".project-roles",
-			".project-title",
-			"tag",
-			"item",
-			"32",
-			".project-roles",
-			"h1.project-title",
-			"hr",
-			"em",
-			" Details",
-			"View ",
-			"section",
-			"20",
-			"$primary-color",
-			"domain",
-			".project-roles",
-			"p.domain",
-			"uppercase",
-			"domain",
-			"58px",
-			"58",
-			".touch.opacity",
-			"173px",
-			"173",
-			".project-tags",
-			".domain-name",
-			".project-roles",
-			"topbar-height",
-			"\\",
-			"#DocumentRoot",
-			"content_nav",
-			"_s",
-			"#bbb",
-			"$detect",
-			"#21759b",
-			"line-height: 2.4",
-			"0.928571429",
-			"3.428571429",
-			"1.571428571",
-			";\n",
-			"3.57142857",
-			"5.142857143",
-			"2.571428571",
-			"1.714285714",
-			"68.571428571",
-			"0.571428571",
-			"0.714285714",
-			"0.428571429",
-			"0.857142857",
-			"font-size",
-			"bold",
-			"font-style",
-			"normal",
-			"font-weight",
-			"h1",
-			"body",
-			"font",
-			"');\n",
-			"domain-name",
-			"  ",
-			".project-roles",
-			"300ms",
-			"sidebar_jumbotron",
-			"$btn-color",
-			"grid",
-			"content-box",
-			".info",
-			");\n",
-			".info",
-			"_s",
-			"_s_setup",
-			"_s",
-			"$color",
-			"fonts",
-			"@",
-			"FontAwesomePath",
-			"@",
-			"@width",
-			".less",
-			";",
-			"@import",
-			".02",
-			".20",
-			".10)",
-			"@include rem('",
-			"0.7",
-			"max-width",
-			"round",
-			".project-info",
-			"info",
-			"$topbar-height",
-			"@font-face",
-			"fonts/",
-			"2.6666666%",
-			" . echo",
-			"-shot",
-			"#",
-			"$portfolioBorder",
-			"4",
-			"ul.portfolio-thumbs",
-			".project-info",
-			"float",
-			"ul.port"
+			"$body-bg"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -998,13 +1008,13 @@
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": false,
+		"whole_word": true,
 		"wrap": true
 	},
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -1012,15 +1022,15 @@
 					"file": "scss/_styles.scss",
 					"settings":
 					{
-						"buffer_size": 6910,
+						"buffer_size": 7877,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3837,
-								3837
+								4225,
+								4225
 							]
 						],
 						"settings":
@@ -1032,25 +1042,88 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3679.0,
+						"translation.y": 3876.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "scss/_fp-portfoliogrid.scss",
+					"file": "templates/header.php",
 					"settings":
 					{
-						"buffer_size": 14837,
+						"buffer_size": 1039,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10791,
-								10791
+								984,
+								984
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "templates/content-single.php",
+					"settings":
+					{
+						"buffer_size": 2771,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								225,
+								225
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 57.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "scss/_fp-header.scss",
+					"settings":
+					{
+						"buffer_size": 7564,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6298,
+								6298
 							]
 						],
 						"settings":
@@ -1062,17 +1135,17 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 8830.0,
+						"translation.y": 4332.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "scss/_fp-header.scss",
+					"buffer": 4,
+					"file": "templates/content-page.php",
 					"settings":
 					{
-						"buffer_size": 5143,
+						"buffer_size": 562,
 						"regions":
 						{
 						},
@@ -1086,74 +1159,10 @@
 						"settings":
 						{
 							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "archive-portfolio.php",
-					"settings":
-					{
-						"buffer_size": 2434,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2257,
-								2257
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
 							"is_xml": false,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 323.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "templates/content-portfolio-grid.php",
-					"settings":
-					{
-						"buffer_size": 2057,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								846,
-								846
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1163,31 +1172,18 @@
 				},
 				{
 					"buffer": 5,
-					"file": "templates/content-portfolio-single.php",
+					"file": "templates/content-home.php",
 					"settings":
 					{
-						"buffer_size": 3742,
+						"buffer_size": 337,
 						"regions":
 						{
-							"TagLint":
-							{
-								"flags": 52,
-								"icon": "dot",
-								"regions":
-								[
-									[
-										1278,
-										1375
-									]
-								],
-								"scope": "variable.parameter"
-							}
 						},
 						"selection":
 						[
 							[
-								674,
-								674
+								337,
+								337
 							]
 						],
 						"settings":
@@ -1196,29 +1192,28 @@
 							"is_xml": false,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 418.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "templates/content-single.php",
+					"file": "templates/content-contact.php",
 					"settings":
 					{
-						"buffer_size": 2608,
+						"buffer_size": 634,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								457,
-								457
+								147,
+								147
 							]
 						],
 						"settings":
@@ -1227,8 +1222,7 @@
 							"is_xml": false,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1248,8 +1242,40 @@
 						"selection":
 						[
 							[
-								647,
-								647
+								738,
+								738
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "lib/menus-and-sidebars.php",
+					"settings":
+					{
+						"buffer_size": 1312,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								721,
+								721
 							]
 						],
 						"settings":
@@ -1271,115 +1297,23 @@
 			]
 		},
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
-					"buffer": 8,
-					"file": "stylesheets/foundation.css",
-					"settings":
-					{
-						"buffer_size": 173740,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								149433,
-								149433
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 94309.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 9,
-					"file": "templates/footer.php",
+					"file": "index.php",
 					"settings":
 					{
-						"buffer_size": 1100,
+						"buffer_size": 1511,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1100,
-								1100
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 57.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "scss/_vars.scss",
-					"settings":
-					{
-						"buffer_size": 3326,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1822,
-								1822
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 912.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "templates/header.php",
-					"settings":
-					{
-						"buffer_size": 1093,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1072,
-								1072
+								1150,
+								1014
 							]
 						],
 						"settings":
@@ -1394,6 +1328,111 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "lib/custom.php",
+					"settings":
+					{
+						"buffer_size": 3680,
+						"regions":
+						{
+							"TagLint":
+							{
+								"flags": 52,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										1835,
+										1838
+									]
+								],
+								"scope": "variable.parameter"
+							}
+						},
+						"selection":
+						[
+							[
+								3640,
+								3640
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1387.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "javascripts/jquery.resume.js",
+					"settings":
+					{
+						"buffer_size": 1081,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								779,
+								779
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "scss/_vars.scss",
+					"settings":
+					{
+						"buffer_size": 3765,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3341,
+								3341
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1786.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1429,7 +1468,7 @@
 		"cols":
 		[
 			0.0,
-			0.517178469348,
+			0.572222222222,
 			1.0
 		],
 		"rows":
@@ -1476,6 +1515,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 344.0,
+	"side_bar_width": 238.0,
 	"status_bar_visible": true
 }
